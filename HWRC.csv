@@ -1,76 +1,75 @@
-ï»¿Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OSM URL,local authrority url
+Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OSM URL,local authrority url
 Bridge of Don Recycling Centre,"Scotstown Road
 Bridge of Don
 AB22 8NJ","*Winter Hours (from 25 October 2020)*
 
-Monday â€“ Friday 10am to 4:45 pm
+Monday – Friday 10am to 4:45 pm
 
-Saturday â€“ Sunday 9am to 4:45 pm
+Saturday – Sunday 9am to 4:45 pm
 
 *Summer hours*
 
-Monday â€“ Friday 10am to 7.45pm 
+Monday – Friday 10am to 7.45pm 
 
-Saturday â€“ Sunday 9am to 7.45pm","- Bulky waste
-- Car battery
-- Cardboard
-- Cooking oil
-- Electrical items
-- Engine oil
-- Fluorescent tubes
-- Food and drink cans
-- Fridge and freezers
-- Garden waste (no soil, turf or food waste)
-- General bagged household waste
-- Glass bottles and jars
-- Household batteries
-- Lightbulbs
-- Paper
-- Plastic bottles
-- Scrap metal
-- Televisions
-- Wood","Bridge of Don Recycling Centre Scotstown Road
+Saturday – Sunday 9am to 7.45pm","- Bulky waste ?
+- Car battery (recycling:car_batteries)
+- Cardboard (recycling:cardboard)
+- Cooking oil (recycling:cooking_oil)
+- Electrical items (recycling:electrical_items)
+- Engine oil (recycling:engine_oil)
+- Fluorescent tubes (recycling:fluorescent_tubes)
+- Food and drink cans (recycling:cans)
+- Fridge and freezers (recycling:white_goods?)
+- Garden waste (no soil, turf or Food waste) (recycling:garden_waste)
+- General bagged household waste ?
+- Glass bottles and jars (recycling:glass_bottles)
+- household batteries (recycling:batteries)
+- Lightbulbs ?
+- Paper (recycling:paper)
+- Plastic bottles (recycling:plastic_bottles)
+- Scrap metal (recycling:scrap_metal)
+- Televisions (recycling:tv_monitor)
+- Wood (recycling:wood)","Bridge of Don Recycling Centre Scotstown Road
 Bridge of Don
 AB22 8NJ",57.1955986,-2.1121538,Q102132154,https://www.openstreetmap.org/way/590188051,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bridge-don-recycling-centre
 Hazlehead Recycling Centre,"Hazlehead Avenue
 Hazlehead
 AB15 8BJ","*Winter Hours (from 25 October 2020)*
 
-Monday â€“ Friday 10am to 4:45 pm
+Monday – Friday 10am to 4:45 pm
 
-Saturday â€“ Sunday 9am to 4:45 pm
+Saturday – Sunday 9am to 4:45 pm
 
 *Summer hours*
 
-Monday â€“ Friday 10am to 7.45pm 
+Monday – Friday 10am to 7.45pm 
 
-Saturday â€“ Sunday 9am to 7.45pm","- Aerosols
-- Bulky waste
-- Car battery
-- Car tyre
-- Cardboard
-- Ceramics
-- Cooking oil
-- Electrical items
-- Engine oil
-- Fluorescent tubes
-- Food and drink cans
-- Fridge and freezers
-- Garden waste (no soil, turf or food waste)
-- Gas canisters
-- General bagged household waste
-- Glass bottles and jars
-- Household batteries
-- Household chemicals and paint *booking required
-- Items for reuse
-- Lightbulbs
-- Paper
-- Plasterboard
+Saturday – Sunday 9am to 7.45pm","- Aerosols (recycling:aerosol_cans)
+- Bulky waste ?
+- Car battery (recycling:car_batteries)
+- Car tyre (recycling:tyres)
+- Cardboard (recycling:cardboard)
+- Ceramics ?
+- Cooking oil (recycling:cooking_oil)
+- Electrical items (recycling:electrical_items)
+- Engine oil (recycling:engine_oil)
+- Fluorescent tubes (recycling:fluorescent_tubes)
+- Food and drink cans (recycling:cans)
+- Fridge and freezers (recycling:white_goods?)
+- Garden waste (no soil, turf or Food waste) (recycling:garden_waste)
+- General bagged household waste ?
+- Glass bottles and jars (recycling:glass_bottles)
+- household batteries (recycling:batteries)
+- household chemicals and paint *booking required (recycling:hazardous_waste/recycling:paint)
+- items for reuse ?
+- Lightbulbs ?
+- Paper (recycling:paper)
+- Plasterboard (recycling:plasterboard)
 - Plastic bottles
 - Rubble and earth
 - Scrap metal
 - Televisions
-- Turf
+- turf
 - Wood","Hazlehead Recycling Centre Hazlehead Avenue
 Hazlehead
 AB15 8BJ",57.1397619,-2.1698404,Q102132282,https://www.openstreetmap.org/way/488949555,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/hazlehead-recycling-centre
@@ -78,34 +77,34 @@ Bucksburn Recycling Centre,"Bankhead Avenue
 Bucksburn
 AB21 9ET","*Winter Hours (from 25 October 2020)*
 
-Monday â€“ Friday 10am to 4:45 pm
+Monday – Friday 10am to 4:45 pm
 
-Saturday â€“ Sunday 9am to 4:45 pm
+Saturday – Sunday 9am to 4:45 pm
 
 *Summer hours*
 
-Monday â€“ Friday 10am to 7.45pm 
+Monday – Friday 10am to 7.45pm 
 
-Saturday â€“ Sunday 9am to 7.45pm","- Bulky waste
-- Car battery
-- Cardboard
-- Cooking oil
-- Electrical items
-- Engine oil
-- Fluorescent tubes
-- Food and drink cans
-- Fridge and freezers
-- Garden waste (no soil, turf or food waste)
-- General bagged household waste
-- Glass bottles and jars
-- Household batteries
-- Lightbulbs
-- Paper
-- Plastic bottles
-- Scrap metal
-- Televisions
-- Turf
-- Wood","Bucksburn Recycling Centre Bankhead Avenue
+Saturday – Sunday 9am to 7.45pm","- Bulky waste ?
+- Car battery (recycling:car_batteries)
+- Cardboard (recycling:cardboard)
+- Cooking oil (recycling:cooking_oil)
+- Electrical items (recycling:electrical_items)
+- Engine oil (recycling:engine_oil)
+- Fluorescent tubes (recycling:fluorescent_tubes)
+- Food and drink cans (recycling:cans)
+- Fridge and freezers (recycling:white_goods?)
+- Garden waste (no soil, turf or Food waste) (recycling:garden_waste)
+- General bagged household waste ?
+- Glass bottles and jars (recycling:glass_bottles)
+- household batteries (recycling:batteries)
+- Lightbulbs ?
+- Paper (recycling:paper)
+- Plastic bottles (recycling:plastic_bottles)
+- Scrap metal (recycling:scrap_metal)
+- Televisions (recycling:tv_monitor)
+- turf (recycling:green_waste/recycling:garden_waste?)
+- Wood (recycling:wood)","Bucksburn Recycling Centre Bankhead Avenue
 Bucksburn
 AB21 9ET",57.1809974,-2.1803248,Q102132382,https://www.openstreetmap.org/node/8173526813,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bucksburn-recycling-centre
 Tullos Recycling Centre,"Greenbank Crescent
@@ -114,7 +113,7 @@ AB12 3BG","*Winter Hours (from 25 October 2020)*
 
 Monday, Tuesday, Thursday and Friday 10am to 4:45pm. Closed Wednesdays. 
 
-Saturday â€“ Sunday 9am to 4.45pm
+Saturday – Sunday 9am to 4.45pm
 
 
 
@@ -122,30 +121,30 @@ Saturday â€“ Sunday 9am to 4.45pm
 
 Monday, Tuesday, Thursday and Friday 10am to 7.45pm. Closed Wednesdays. 
 
-Saturday â€“ Sunday 9am to 7.45pm.","- Bulky waste
-- Car battery
-- Car tyre
-- Cardboard
-- Ceramics
-- Cooking oil
-- Electrical items
-- Engine oil
-- Fluorescent tubes
-- Food and drink cans
-- Fridge and freezers
-- Garden waste (no soil, turf or food waste)
-- Gas canisters
-- General bagged household waste
-- Glass bottles and jars
-- Household batteries
-- Lightbulbs
-- Paper
-- Plasterboard
-- Plastic bottles
-- Rubble and earth
+Saturday – Sunday 9am to 7.45pm.","- Bulky waste ?
+- Car battery (recycling:car_batteries)
+- Car tyre (recycling:tyres)
+- Cardboard (recycling:cardboard)
+- Ceramics ?
+- Cooking oil (recycling:cooking_oil)
+- Electrical items (recycling:electrical_items)
+- Engine oil (recycling:engine_oil)
+- Fluorescent tubes (recycling:fluorescent_tubes)
+- Food and drink cans (recycling:cans)
+- Fridge and freezers (recycling:white_goods?)
+- Garden waste (no soil, turf or Food waste) (recycling:garden_waste)
+- Gas canisters (recycling:gas_bottles)
+- General bagged household waste ?
+- Glass bottles and jars (recycling:glass_bottles)
+- household batteries (recycling:batteries)
+- Lightbulbs ?
+- Paper (recycling:paper)
+- Plasterboard (recycling:plasterboard)
+- Plastic bottles (recycling:plastic_bottles)
+- Rubble and earth (recycling:rubble)
 - Scrap metal
 - Televisions
-- Turf
+- turf
 - Wood","Tullos Recycling Centre Greenbank Crescent
 Tullos
 AB12 3BG",57.126097,-2.0777472,Q102132643,https://www.openstreetmap.org/way/116883204,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/tullos-recycling-centre
