@@ -157,6 +157,88 @@
         "wikidata": "Q102132154"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.17035,
+              57.14048
+            ],
+            [
+              -2.16961,
+              57.13965
+            ],
+            [
+              -2.1707,
+              57.13938
+            ],
+            [
+              -2.17125,
+              57.13988
+            ],
+            [
+              -2.17154,
+              57.1403
+            ],
+            [
+              -2.17044,
+              57.14047
+            ],
+            [
+              -2.17035,
+              57.14048
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB15 8BJ",
+        "addr:street": "Hazlehead Avenue",
+        "amenity": "recycling",
+        "name": "Hazlehead Recycling Centre",
+        "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45",
+        "opening_hours:covid19": "same",
+        "operator": "SUEZ",
+        "osm_ref": "way/488949555",
+        "recycling:aerosol_cans": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:ceramics": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "wikidata": "Q102132282"
+      },
+      "type": "Feature"
     }
   ]
 }
