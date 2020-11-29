@@ -45,5 +45,6 @@ var tagMap = {
     "recycling:polystyrene_foam": "Polystyrene foam",
     "recycling:earth": "Earth",
     "recycling:fridge_and_freezer": "Fridges and freezers",
-    "recycling:furniture": "Furniture"
+    "recycling:furniture": "Furniture",
+    "recycling:animal_waste": "Animal waste"
 }

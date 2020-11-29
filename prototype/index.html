@@ -137,6 +137,10 @@
                     popupData += addressContent.join(", ")
                     popupData += "</em>";
 
+                    if (centreProps["website"]) {
+                        popupData += "<div><a href=\"" + centreProps["website"] + "\">Website</a></div>"
+                    }
+
                     // Accordion wrapper begin
                     popupData += `<div class="accordion" id="` + idPrefix + `Accordion">`;
 
