@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Map - WasteWizards</title>
+
+    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="lib/leaflet-sidebar/src/L.Control.Sidebar.css" />
+    <link rel="stylesheet" href="lib/leaflet-locatecontrol/L.Control.Locate.css" />
+    <link rel="stylesheet" href="lib/Leaflet.awesome-markers/leaflet.awesome-markers.css" />
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/fontawesome/css/all.min.css" />
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+</body>
+
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/leaflet/leaflet.js"></script>
+<script src="lib/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+<script src="lib/leaflet-locatecontrol/L.Control.Locate.min.js"></script>
+<script src="lib/Leaflet.awesome-markers/leaflet.awesome-markers.js"></script>
+
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script>
+    var map = L.map('map').setView([57.14071029202315, -2.062339782714844], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap</a> Contributors',
+        maxZoom: 18,
+        minZoom: 5
+    }).addTo(map);
+
+    L.control.locate({
+        circleStyle: {
+            interactive: false
+        },
+        locateOptions: {
+            maxZoom: 16
+        },
+        flyTo: true
+    }).addTo(map);
+
+    var icon = L.AwesomeMarkers.icon({
+        icon: 'recycle',
+        markerColor: 'green',
+        prefix: "fa"
+    });
+
+    $.ajax({
+        type: "GET",
+        url: 'https://raw.githubusercontent.com/CodeTheCity/ctc21_waste_wizards/main/HWRC.geojson',
+        dataType: 'json',
+        success: function(response) {
+            centre = L.geoJSON(response, {
+                pointToLayer: function(feature, latlng) {
+
+                },
+                onEachFeature: function(feature, layer) {
+                    var hwrcCentre = layer.getBounds().getCenter();
+                    var centreProps = layer.feature.properties;
+
+                    var name = centreProps.name;
+
+                    var point = L.marker(hwrcCentre, {
+                        icon: icon
+                    });
+
+                    point.bindPopup(name);
+
+                    point.addTo(map);
+
+                    layer.bindPopup(name);
+                }
+
+            }).addTo(map);
+        }
+    });
+</script>
+
+</html>
