@@ -240,6 +240,1868 @@
         "recycling:wood": "yes",
         "wikidata": "Q102132282"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.51392,
+              57.06406
+            ],
+            [
+              -2.513925,
+              57.063962
+            ],
+            [
+              -2.513939,
+              57.063865
+            ],
+            [
+              -2.513963,
+              57.06377
+            ],
+            [
+              -2.513996,
+              57.063677
+            ],
+            [
+              -2.514038,
+              57.063589
+            ],
+            [
+              -2.514089,
+              57.063504
+            ],
+            [
+              -2.514147,
+              57.063426
+            ],
+            [
+              -2.514213,
+              57.063353
+            ],
+            [
+              -2.514286,
+              57.063287
+            ],
+            [
+              -2.514364,
+              57.063229
+            ],
+            [
+              -2.514449,
+              57.063178
+            ],
+            [
+              -2.514537,
+              57.063136
+            ],
+            [
+              -2.51463,
+              57.063103
+            ],
+            [
+              -2.514725,
+              57.063079
+            ],
+            [
+              -2.514822,
+              57.063065
+            ],
+            [
+              -2.51492,
+              57.06306
+            ],
+            [
+              -2.515018,
+              57.063065
+            ],
+            [
+              -2.515115,
+              57.063079
+            ],
+            [
+              -2.51521,
+              57.063103
+            ],
+            [
+              -2.515303,
+              57.063136
+            ],
+            [
+              -2.515391,
+              57.063178
+            ],
+            [
+              -2.515476,
+              57.063229
+            ],
+            [
+              -2.515554,
+              57.063287
+            ],
+            [
+              -2.515627,
+              57.063353
+            ],
+            [
+              -2.515693,
+              57.063426
+            ],
+            [
+              -2.515751,
+              57.063504
+            ],
+            [
+              -2.515802,
+              57.063589
+            ],
+            [
+              -2.515844,
+              57.063677
+            ],
+            [
+              -2.515877,
+              57.06377
+            ],
+            [
+              -2.515901,
+              57.063865
+            ],
+            [
+              -2.515915,
+              57.063962
+            ],
+            [
+              -2.51592,
+              57.06406
+            ],
+            [
+              -2.515915,
+              57.064158
+            ],
+            [
+              -2.515901,
+              57.064255
+            ],
+            [
+              -2.515877,
+              57.06435
+            ],
+            [
+              -2.515844,
+              57.064443
+            ],
+            [
+              -2.515802,
+              57.064531
+            ],
+            [
+              -2.515751,
+              57.064616
+            ],
+            [
+              -2.515693,
+              57.064694
+            ],
+            [
+              -2.515627,
+              57.064767
+            ],
+            [
+              -2.515554,
+              57.064833
+            ],
+            [
+              -2.515476,
+              57.064891
+            ],
+            [
+              -2.515391,
+              57.064942
+            ],
+            [
+              -2.515303,
+              57.064984
+            ],
+            [
+              -2.51521,
+              57.065017
+            ],
+            [
+              -2.515115,
+              57.065041
+            ],
+            [
+              -2.515018,
+              57.065055
+            ],
+            [
+              -2.51492,
+              57.06506
+            ],
+            [
+              -2.514822,
+              57.065055
+            ],
+            [
+              -2.514725,
+              57.065041
+            ],
+            [
+              -2.51463,
+              57.065017
+            ],
+            [
+              -2.514537,
+              57.064984
+            ],
+            [
+              -2.514449,
+              57.064942
+            ],
+            [
+              -2.514364,
+              57.064891
+            ],
+            [
+              -2.514286,
+              57.064833
+            ],
+            [
+              -2.514213,
+              57.064767
+            ],
+            [
+              -2.514147,
+              57.064694
+            ],
+            [
+              -2.514089,
+              57.064616
+            ],
+            [
+              -2.514038,
+              57.064531
+            ],
+            [
+              -2.513996,
+              57.064443
+            ],
+            [
+              -2.513963,
+              57.06435
+            ],
+            [
+              -2.513939,
+              57.064255
+            ],
+            [
+              -2.513925,
+              57.064158
+            ],
+            [
+              -2.51392,
+              57.06406
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "node/2300250889",
+        "amenity": "recycling",
+        "name": "Crow's Nest Household Waste Recycling Centre",
+        "operator": "Aberdeenshire Council",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.05269,
+              57.36987
+            ],
+            [
+              -2.052695,
+              57.369772
+            ],
+            [
+              -2.052709,
+              57.369675
+            ],
+            [
+              -2.052733,
+              57.36958
+            ],
+            [
+              -2.052766,
+              57.369487
+            ],
+            [
+              -2.052808,
+              57.369399
+            ],
+            [
+              -2.052859,
+              57.369314
+            ],
+            [
+              -2.052917,
+              57.369236
+            ],
+            [
+              -2.052983,
+              57.369163
+            ],
+            [
+              -2.053056,
+              57.369097
+            ],
+            [
+              -2.053134,
+              57.369039
+            ],
+            [
+              -2.053219,
+              57.368988
+            ],
+            [
+              -2.053307,
+              57.368946
+            ],
+            [
+              -2.0534,
+              57.368913
+            ],
+            [
+              -2.053495,
+              57.368889
+            ],
+            [
+              -2.053592,
+              57.368875
+            ],
+            [
+              -2.05369,
+              57.36887
+            ],
+            [
+              -2.053788,
+              57.368875
+            ],
+            [
+              -2.053885,
+              57.368889
+            ],
+            [
+              -2.05398,
+              57.368913
+            ],
+            [
+              -2.054073,
+              57.368946
+            ],
+            [
+              -2.054161,
+              57.368988
+            ],
+            [
+              -2.054246,
+              57.369039
+            ],
+            [
+              -2.054324,
+              57.369097
+            ],
+            [
+              -2.054397,
+              57.369163
+            ],
+            [
+              -2.054463,
+              57.369236
+            ],
+            [
+              -2.054521,
+              57.369314
+            ],
+            [
+              -2.054572,
+              57.369399
+            ],
+            [
+              -2.054614,
+              57.369487
+            ],
+            [
+              -2.054647,
+              57.36958
+            ],
+            [
+              -2.054671,
+              57.369675
+            ],
+            [
+              -2.054685,
+              57.369772
+            ],
+            [
+              -2.05469,
+              57.36987
+            ],
+            [
+              -2.054685,
+              57.369968
+            ],
+            [
+              -2.054671,
+              57.370065
+            ],
+            [
+              -2.054647,
+              57.37016
+            ],
+            [
+              -2.054614,
+              57.370253
+            ],
+            [
+              -2.054572,
+              57.370341
+            ],
+            [
+              -2.054521,
+              57.370426
+            ],
+            [
+              -2.054463,
+              57.370504
+            ],
+            [
+              -2.054397,
+              57.370577
+            ],
+            [
+              -2.054324,
+              57.370643
+            ],
+            [
+              -2.054246,
+              57.370701
+            ],
+            [
+              -2.054161,
+              57.370752
+            ],
+            [
+              -2.054073,
+              57.370794
+            ],
+            [
+              -2.05398,
+              57.370827
+            ],
+            [
+              -2.053885,
+              57.370851
+            ],
+            [
+              -2.053788,
+              57.370865
+            ],
+            [
+              -2.05369,
+              57.37087
+            ],
+            [
+              -2.053592,
+              57.370865
+            ],
+            [
+              -2.053495,
+              57.370851
+            ],
+            [
+              -2.0534,
+              57.370827
+            ],
+            [
+              -2.053307,
+              57.370794
+            ],
+            [
+              -2.053219,
+              57.370752
+            ],
+            [
+              -2.053134,
+              57.370701
+            ],
+            [
+              -2.053056,
+              57.370643
+            ],
+            [
+              -2.052983,
+              57.370577
+            ],
+            [
+              -2.052917,
+              57.370504
+            ],
+            [
+              -2.052859,
+              57.370426
+            ],
+            [
+              -2.052808,
+              57.370341
+            ],
+            [
+              -2.052766,
+              57.370253
+            ],
+            [
+              -2.052733,
+              57.37016
+            ],
+            [
+              -2.052709,
+              57.370065
+            ],
+            [
+              -2.052695,
+              57.369968
+            ],
+            [
+              -2.05269,
+              57.36987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "node/1453597969",
+        "amenity": "recycling",
+        "name": "Ellon Household Waste & Recycling Centre",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.02337,
+              57.69535
+            ],
+            [
+              -2.02273,
+              57.69556
+            ],
+            [
+              -2.0224,
+              57.69526
+            ],
+            [
+              -2.02253,
+              57.69521
+            ],
+            [
+              -2.02236,
+              57.69507
+            ],
+            [
+              -2.02242,
+              57.69503
+            ],
+            [
+              -2.02288,
+              57.69489
+            ],
+            [
+              -2.02337,
+              57.69535
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/468144801",
+        "addr:city": "Fraserburgh",
+        "addr:postcode": "AB43 9SU",
+        "addr:street": "Anderson Place",
+        "amenity": "recycling",
+        "name": "Fraserburgh Household Waste Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire Council",
+        "owner": "Aberdeenshire council",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:paper": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes",
+        "site_ownership": "municipal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.79745,
+              57.44577
+            ],
+            [
+              -2.79781,
+              57.44538
+            ],
+            [
+              -2.79833,
+              57.4455
+            ],
+            [
+              -2.79854,
+              57.44551
+            ],
+            [
+              -2.79906,
+              57.44561
+            ],
+            [
+              -2.79862,
+              57.44606
+            ],
+            [
+              -2.79745,
+              57.44577
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/878868635",
+        "addr:city": "Huntly",
+        "addr:postcode": "AB54 8SX",
+        "addr:street": "Steven Road",
+        "amenity": "recycling",
+        "name": "Huntly Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.61102,
+              57.34429
+            ],
+            [
+              -2.611025,
+              57.344192
+            ],
+            [
+              -2.611039,
+              57.344095
+            ],
+            [
+              -2.611063,
+              57.344
+            ],
+            [
+              -2.611096,
+              57.343907
+            ],
+            [
+              -2.611138,
+              57.343819
+            ],
+            [
+              -2.611189,
+              57.343734
+            ],
+            [
+              -2.611247,
+              57.343656
+            ],
+            [
+              -2.611313,
+              57.343583
+            ],
+            [
+              -2.611386,
+              57.343517
+            ],
+            [
+              -2.611464,
+              57.343459
+            ],
+            [
+              -2.611549,
+              57.343408
+            ],
+            [
+              -2.611637,
+              57.343366
+            ],
+            [
+              -2.61173,
+              57.343333
+            ],
+            [
+              -2.611825,
+              57.343309
+            ],
+            [
+              -2.611922,
+              57.343295
+            ],
+            [
+              -2.61202,
+              57.34329
+            ],
+            [
+              -2.612118,
+              57.343295
+            ],
+            [
+              -2.612215,
+              57.343309
+            ],
+            [
+              -2.61231,
+              57.343333
+            ],
+            [
+              -2.612403,
+              57.343366
+            ],
+            [
+              -2.612491,
+              57.343408
+            ],
+            [
+              -2.612576,
+              57.343459
+            ],
+            [
+              -2.612654,
+              57.343517
+            ],
+            [
+              -2.612727,
+              57.343583
+            ],
+            [
+              -2.612793,
+              57.343656
+            ],
+            [
+              -2.612851,
+              57.343734
+            ],
+            [
+              -2.612902,
+              57.343819
+            ],
+            [
+              -2.612944,
+              57.343907
+            ],
+            [
+              -2.612977,
+              57.344
+            ],
+            [
+              -2.613001,
+              57.344095
+            ],
+            [
+              -2.613015,
+              57.344192
+            ],
+            [
+              -2.61302,
+              57.34429
+            ],
+            [
+              -2.613015,
+              57.344388
+            ],
+            [
+              -2.613001,
+              57.344485
+            ],
+            [
+              -2.612977,
+              57.34458
+            ],
+            [
+              -2.612944,
+              57.344673
+            ],
+            [
+              -2.612902,
+              57.344761
+            ],
+            [
+              -2.612851,
+              57.344846
+            ],
+            [
+              -2.612793,
+              57.344924
+            ],
+            [
+              -2.612727,
+              57.344997
+            ],
+            [
+              -2.612654,
+              57.345063
+            ],
+            [
+              -2.612576,
+              57.345121
+            ],
+            [
+              -2.612491,
+              57.345172
+            ],
+            [
+              -2.612403,
+              57.345214
+            ],
+            [
+              -2.61231,
+              57.345247
+            ],
+            [
+              -2.612215,
+              57.345271
+            ],
+            [
+              -2.612118,
+              57.345285
+            ],
+            [
+              -2.61202,
+              57.34529
+            ],
+            [
+              -2.611922,
+              57.345285
+            ],
+            [
+              -2.611825,
+              57.345271
+            ],
+            [
+              -2.61173,
+              57.345247
+            ],
+            [
+              -2.611637,
+              57.345214
+            ],
+            [
+              -2.611549,
+              57.345172
+            ],
+            [
+              -2.611464,
+              57.345121
+            ],
+            [
+              -2.611386,
+              57.345063
+            ],
+            [
+              -2.611313,
+              57.344997
+            ],
+            [
+              -2.611247,
+              57.344924
+            ],
+            [
+              -2.611189,
+              57.344846
+            ],
+            [
+              -2.611138,
+              57.344761
+            ],
+            [
+              -2.611096,
+              57.344673
+            ],
+            [
+              -2.611063,
+              57.34458
+            ],
+            [
+              -2.611039,
+              57.344485
+            ],
+            [
+              -2.611025,
+              57.344388
+            ],
+            [
+              -2.61102,
+              57.34429
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "node/2921781304",
+        "amenity": "recycling",
+        "name": "Insch Household Waste & Recycling Centre",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:clothes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "container",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.36765,
+              57.28796
+            ],
+            [
+              -2.367655,
+              57.287862
+            ],
+            [
+              -2.367669,
+              57.287765
+            ],
+            [
+              -2.367693,
+              57.28767
+            ],
+            [
+              -2.367726,
+              57.287577
+            ],
+            [
+              -2.367768,
+              57.287489
+            ],
+            [
+              -2.367819,
+              57.287404
+            ],
+            [
+              -2.367877,
+              57.287326
+            ],
+            [
+              -2.367943,
+              57.287253
+            ],
+            [
+              -2.368016,
+              57.287187
+            ],
+            [
+              -2.368094,
+              57.287129
+            ],
+            [
+              -2.368179,
+              57.287078
+            ],
+            [
+              -2.368267,
+              57.287036
+            ],
+            [
+              -2.36836,
+              57.287003
+            ],
+            [
+              -2.368455,
+              57.286979
+            ],
+            [
+              -2.368552,
+              57.286965
+            ],
+            [
+              -2.36865,
+              57.28696
+            ],
+            [
+              -2.368748,
+              57.286965
+            ],
+            [
+              -2.368845,
+              57.286979
+            ],
+            [
+              -2.36894,
+              57.287003
+            ],
+            [
+              -2.369033,
+              57.287036
+            ],
+            [
+              -2.369121,
+              57.287078
+            ],
+            [
+              -2.369206,
+              57.287129
+            ],
+            [
+              -2.369284,
+              57.287187
+            ],
+            [
+              -2.369357,
+              57.287253
+            ],
+            [
+              -2.369423,
+              57.287326
+            ],
+            [
+              -2.369481,
+              57.287404
+            ],
+            [
+              -2.369532,
+              57.287489
+            ],
+            [
+              -2.369574,
+              57.287577
+            ],
+            [
+              -2.369607,
+              57.28767
+            ],
+            [
+              -2.369631,
+              57.287765
+            ],
+            [
+              -2.369645,
+              57.287862
+            ],
+            [
+              -2.36965,
+              57.28796
+            ],
+            [
+              -2.369645,
+              57.288058
+            ],
+            [
+              -2.369631,
+              57.288155
+            ],
+            [
+              -2.369607,
+              57.28825
+            ],
+            [
+              -2.369574,
+              57.288343
+            ],
+            [
+              -2.369532,
+              57.288431
+            ],
+            [
+              -2.369481,
+              57.288516
+            ],
+            [
+              -2.369423,
+              57.288594
+            ],
+            [
+              -2.369357,
+              57.288667
+            ],
+            [
+              -2.369284,
+              57.288733
+            ],
+            [
+              -2.369206,
+              57.288791
+            ],
+            [
+              -2.369121,
+              57.288842
+            ],
+            [
+              -2.369033,
+              57.288884
+            ],
+            [
+              -2.36894,
+              57.288917
+            ],
+            [
+              -2.368845,
+              57.288941
+            ],
+            [
+              -2.368748,
+              57.288955
+            ],
+            [
+              -2.36865,
+              57.28896
+            ],
+            [
+              -2.368552,
+              57.288955
+            ],
+            [
+              -2.368455,
+              57.288941
+            ],
+            [
+              -2.36836,
+              57.288917
+            ],
+            [
+              -2.368267,
+              57.288884
+            ],
+            [
+              -2.368179,
+              57.288842
+            ],
+            [
+              -2.368094,
+              57.288791
+            ],
+            [
+              -2.368016,
+              57.288733
+            ],
+            [
+              -2.367943,
+              57.288667
+            ],
+            [
+              -2.367877,
+              57.288594
+            ],
+            [
+              -2.367819,
+              57.288516
+            ],
+            [
+              -2.367768,
+              57.288431
+            ],
+            [
+              -2.367726,
+              57.288343
+            ],
+            [
+              -2.367693,
+              57.28825
+            ],
+            [
+              -2.367669,
+              57.288155
+            ],
+            [
+              -2.367655,
+              57.288058
+            ],
+            [
+              -2.36765,
+              57.28796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "node/4610434492",
+        "amenity": "recycling",
+        "name": "Inverurie Household Waste Recycling Centre",
+        "opening_hours": "Mo-Su 09:00-17:00",
+        "operator": "Aberdeenshire Council",
+        "recycling_type": "centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.46836,
+              56.83569
+            ],
+            [
+              -2.4685,
+              56.83557
+            ],
+            [
+              -2.46874,
+              56.83546
+            ],
+            [
+              -2.46968,
+              56.83601
+            ],
+            [
+              -2.46937,
+              56.83616
+            ],
+            [
+              -2.46929,
+              56.83618
+            ],
+            [
+              -2.46923,
+              56.83617
+            ],
+            [
+              -2.46916,
+              56.83616
+            ],
+            [
+              -2.46851,
+              56.83578
+            ],
+            [
+              -2.46836,
+              56.83569
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/878867808",
+        "addr:city": "Laurencekirk",
+        "addr:postcode": "AB30 1DG",
+        "addr:street": "Market Road",
+        "amenity": "recycling",
+        "name": "Laurencekirk Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:polystyrene": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.4811,
+              57.66772
+            ],
+            [
+              -2.48168,
+              57.66762
+            ],
+            [
+              -2.48135,
+              57.66716
+            ],
+            [
+              -2.48078,
+              57.66728
+            ],
+            [
+              -2.4811,
+              57.66772
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/100783605",
+        "addr:city": "Macduff",
+        "addr:postcode": "AB44 1QD",
+        "addr:street": "Old Gamrie Road",
+        "amenity": "recycling",
+        "name": "Macduff Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliance": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.81257,
+              57.4925
+            ],
+            [
+              -1.81195,
+              57.49198
+            ],
+            [
+              -1.81129,
+              57.49232
+            ],
+            [
+              -1.81205,
+              57.49289
+            ],
+            [
+              -1.81257,
+              57.4925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/248336564",
+        "addr:city": "Peterhead",
+        "addr:postcode": "AB42 3JF",
+        "addr:street": "Damhead Road",
+        "amenity": "recycling",
+        "name": "Peterhead Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire Council",
+        "operator:type": "government",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:polystyrene": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:styrofoam": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.15156,
+              57.07263
+            ],
+            [
+              -2.15191,
+              57.07172
+            ],
+            [
+              -2.1508,
+              57.07157
+            ],
+            [
+              -2.15052,
+              57.07246
+            ],
+            [
+              -2.15156,
+              57.07263
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/476694225",
+        "addr:city": "Portlethen",
+        "addr:postcode": "AB12 4ZD",
+        "addr:street": "Badentoy Drive",
+        "amenity": "recycling",
+        "name": "Portlethen Household Waste Recycling Centre",
+        "opening_hours": "Mo 09:00-16:30; Th 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood_waste": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.68957,
+              57.68002
+            ],
+            [
+              -2.68956,
+              57.67995
+            ],
+            [
+              -2.68961,
+              57.67995
+            ],
+            [
+              -2.68961,
+              57.67985
+            ],
+            [
+              -2.68982,
+              57.67985
+            ],
+            [
+              -2.68982,
+              57.68003
+            ],
+            [
+              -2.68957,
+              57.68002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/878867009",
+        "addr:city": "Portsoy",
+        "addr:postcode": "AB45 2QX",
+        "addr:street": "Station Yard",
+        "amenity": "recycling",
+        "name": "Portsoy Recycling Centre",
+        "opening_hours": "Tu 09:00-12:30, 13:00-16:30; Sa 09:00-12:30, 13:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.23936,
+              56.97419
+            ],
+            [
+              -2.23838,
+              56.97395
+            ],
+            [
+              -2.23829,
+              56.9738
+            ],
+            [
+              -2.23891,
+              56.97321
+            ],
+            [
+              -2.23963,
+              56.9736
+            ],
+            [
+              -2.23948,
+              56.9737
+            ],
+            [
+              -2.2397,
+              56.97375
+            ],
+            [
+              -2.23931,
+              56.97413
+            ],
+            [
+              -2.23936,
+              56.97419
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/473816199",
+        "addr:city": "Stonehaven",
+        "addr:postcode": "AB39 3SR",
+        "addr:street": "Redcloak",
+        "amenity": "recycling",
+        "name": "Stonehaven Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire Council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:polystyrene_foam": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:styrofoam": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.45385,
+              57.54312
+            ],
+            [
+              -2.45333,
+              57.54328
+            ],
+            [
+              -2.45299,
+              57.54283
+            ],
+            [
+              -2.45316,
+              57.54273
+            ],
+            [
+              -2.45336,
+              57.54267
+            ],
+            [
+              -2.45339,
+              57.54268
+            ],
+            [
+              -2.45346,
+              57.54274
+            ],
+            [
+              -2.4536,
+              57.5428
+            ],
+            [
+              -2.45374,
+              57.54299
+            ],
+            [
+              -2.45378,
+              57.54304
+            ],
+            [
+              -2.45385,
+              57.54312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/878865764",
+        "addr:city": "Turriff",
+        "addr:postcode": "AB53 4AZ",
+        "addr:street": "Markethill",
+        "amenity": "recycling",
+        "name": "Turriff Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.29588,
+              57.15189
+            ],
+            [
+              -2.29481,
+              57.15197
+            ],
+            [
+              -2.29472,
+              57.1516
+            ],
+            [
+              -2.29475,
+              57.15156
+            ],
+            [
+              -2.29482,
+              57.15154
+            ],
+            [
+              -2.29572,
+              57.1514
+            ],
+            [
+              -2.29588,
+              57.15189
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/41958866",
+        "addr:city": "Westhill",
+        "addr:postcode": "AB32 6QX",
+        "addr:street": "Westdyke Avenue",
+        "amenity": "recycling",
+        "landuse": "industrial",
+        "name": "Westhill Recycling & Disposal Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30: Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire Council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:clothes": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
     }
   ]
 }
