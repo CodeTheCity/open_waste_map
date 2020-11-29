@@ -240,6 +240,10 @@
                     // Accordion wrapper end
                     popupData += "</div>";
 
+                    if (centreProps["image"]) {
+                        popupData += "<img src=\"" + centreProps["image"] + "\" class=\"w-100\">"
+                    }
+
 
 
                     var point = L.marker(hwrcCentre, {
