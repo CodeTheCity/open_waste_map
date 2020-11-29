@@ -7,6 +7,7 @@ which ran Saturday 28th Nov 2020 and Sunday 29th Nov 2020.
 ### Useful bits'n'pieces
 
 * [Our worksheet of waste recycling centres and points in Aberdeen](HWRC.csv)
+* [Our (work-in-progress) QuickStatements sheet for adding recycling centres into Wikidata](recycling-centre-quickstatements.csv)
 * [Query Wikidata for the recycling centres in Scotland](https://w.wiki/occ)
 * [Query OpenStreetMap for the recycling centres in Aberdeen](https://www.openstreetmap.org/search?query=aberdeen%20recycling)
 * [Query OpenStreetMap using OverPass for recycling sites](https://overpass-turbo.eu/s/10Fv)
