@@ -541,282 +541,6 @@
         "coordinates": [
           [
             [
-              -2.05269,
-              57.36987
-            ],
-            [
-              -2.052695,
-              57.369772
-            ],
-            [
-              -2.052709,
-              57.369675
-            ],
-            [
-              -2.052733,
-              57.36958
-            ],
-            [
-              -2.052766,
-              57.369487
-            ],
-            [
-              -2.052808,
-              57.369399
-            ],
-            [
-              -2.052859,
-              57.369314
-            ],
-            [
-              -2.052917,
-              57.369236
-            ],
-            [
-              -2.052983,
-              57.369163
-            ],
-            [
-              -2.053056,
-              57.369097
-            ],
-            [
-              -2.053134,
-              57.369039
-            ],
-            [
-              -2.053219,
-              57.368988
-            ],
-            [
-              -2.053307,
-              57.368946
-            ],
-            [
-              -2.0534,
-              57.368913
-            ],
-            [
-              -2.053495,
-              57.368889
-            ],
-            [
-              -2.053592,
-              57.368875
-            ],
-            [
-              -2.05369,
-              57.36887
-            ],
-            [
-              -2.053788,
-              57.368875
-            ],
-            [
-              -2.053885,
-              57.368889
-            ],
-            [
-              -2.05398,
-              57.368913
-            ],
-            [
-              -2.054073,
-              57.368946
-            ],
-            [
-              -2.054161,
-              57.368988
-            ],
-            [
-              -2.054246,
-              57.369039
-            ],
-            [
-              -2.054324,
-              57.369097
-            ],
-            [
-              -2.054397,
-              57.369163
-            ],
-            [
-              -2.054463,
-              57.369236
-            ],
-            [
-              -2.054521,
-              57.369314
-            ],
-            [
-              -2.054572,
-              57.369399
-            ],
-            [
-              -2.054614,
-              57.369487
-            ],
-            [
-              -2.054647,
-              57.36958
-            ],
-            [
-              -2.054671,
-              57.369675
-            ],
-            [
-              -2.054685,
-              57.369772
-            ],
-            [
-              -2.05469,
-              57.36987
-            ],
-            [
-              -2.054685,
-              57.369968
-            ],
-            [
-              -2.054671,
-              57.370065
-            ],
-            [
-              -2.054647,
-              57.37016
-            ],
-            [
-              -2.054614,
-              57.370253
-            ],
-            [
-              -2.054572,
-              57.370341
-            ],
-            [
-              -2.054521,
-              57.370426
-            ],
-            [
-              -2.054463,
-              57.370504
-            ],
-            [
-              -2.054397,
-              57.370577
-            ],
-            [
-              -2.054324,
-              57.370643
-            ],
-            [
-              -2.054246,
-              57.370701
-            ],
-            [
-              -2.054161,
-              57.370752
-            ],
-            [
-              -2.054073,
-              57.370794
-            ],
-            [
-              -2.05398,
-              57.370827
-            ],
-            [
-              -2.053885,
-              57.370851
-            ],
-            [
-              -2.053788,
-              57.370865
-            ],
-            [
-              -2.05369,
-              57.37087
-            ],
-            [
-              -2.053592,
-              57.370865
-            ],
-            [
-              -2.053495,
-              57.370851
-            ],
-            [
-              -2.0534,
-              57.370827
-            ],
-            [
-              -2.053307,
-              57.370794
-            ],
-            [
-              -2.053219,
-              57.370752
-            ],
-            [
-              -2.053134,
-              57.370701
-            ],
-            [
-              -2.053056,
-              57.370643
-            ],
-            [
-              -2.052983,
-              57.370577
-            ],
-            [
-              -2.052917,
-              57.370504
-            ],
-            [
-              -2.052859,
-              57.370426
-            ],
-            [
-              -2.052808,
-              57.370341
-            ],
-            [
-              -2.052766,
-              57.370253
-            ],
-            [
-              -2.052733,
-              57.37016
-            ],
-            [
-              -2.052709,
-              57.370065
-            ],
-            [
-              -2.052695,
-              57.369968
-            ],
-            [
-              -2.05269,
-              57.36987
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "osm_ref": "node/1453597969",
-        "amenity": "recycling",
-        "name": "Ellon Household Waste & Recycling Centre",
-        "recycling_type": "centre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -2.02337,
               57.69535
             ],
@@ -1237,12 +961,11 @@
         "recycling:clothes": "yes",
         "recycling:garden_waste": "yes",
         "recycling:glass": "yes",
-        "recycling:green_waste": "yes",
         "recycling:paper": "yes",
         "recycling:plastic": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
-        "recycling_type": "container",
+        "recycling_type": "centre",
         "recycling:white_goods": "yes",
         "recycling:wood": "yes"
       }
@@ -2295,6 +2018,121 @@
         "recycling:plasterboard": "yes",
         "recycling:plastic": "yes",
         "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "centre",
+        "recycling:waste": "yes",
+        "recycling:wood": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.05395,
+              57.37032
+            ],
+            [
+              -2.05359,
+              57.37018
+            ],
+            [
+              -2.05352,
+              57.3702
+            ],
+            [
+              -2.05291,
+              57.36996
+            ],
+            [
+              -2.05299,
+              57.36993
+            ],
+            [
+              -2.05314,
+              57.36982
+            ],
+            [
+              -2.05313,
+              57.36981
+            ],
+            [
+              -2.05318,
+              57.36977
+            ],
+            [
+              -2.0532,
+              57.36978
+            ],
+            [
+              -2.05359,
+              57.3695
+            ],
+            [
+              -2.05368,
+              57.36945
+            ],
+            [
+              -2.05382,
+              57.36941
+            ],
+            [
+              -2.05397,
+              57.36942
+            ],
+            [
+              -2.05426,
+              57.36953
+            ],
+            [
+              -2.05474,
+              57.36973
+            ],
+            [
+              -2.05479,
+              57.36977
+            ],
+            [
+              -2.05469,
+              57.36986
+            ],
+            [
+              -2.05449,
+              57.36992
+            ],
+            [
+              -2.05395,
+              57.37032
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/878917216",
+        "addr:city": "Ellon",
+        "addr:postcode": "AB41 8BY",
+        "addr:street": "Balmacassie Brae",
+        "amenity": "recycling",
+        "name": "Ellon Recycling Centre",
+        "opening_hours": "Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00",
+        "opening_hours:covid19": "same",
+        "operator": "Aberdeenshire council",
+        "owner": "Aberdeenshire council",
+        "ownership": "municipal",
+        "recycling:animal_waste": "No",
+        "recycling:batteries": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:green_waste": "yes",
+        "recycling:low_energy_bulbs": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
         "recycling:small_electrical_appliances": "yes",
