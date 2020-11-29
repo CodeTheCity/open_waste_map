@@ -82,6 +82,81 @@
         "wikidata": "Q102132282"
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.1123,
+              57.19587
+            ],
+            [
+              -2.11174,
+              57.19548
+            ],
+            [
+              -2.11198,
+              57.19543
+            ],
+            [
+              -2.1124,
+              57.19573
+            ],
+            [
+              -2.1123,
+              57.19587
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "addr:postcode": "AB22 8NJ",
+        "addr:street": "Scotstown Road",
+        "amenity": "recycling",
+        "name": "Bridge of Don Recycling Centre",
+        "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45",
+        "opening_hours:covid19": "same",
+        "operator": "SUEZ",
+        "osm_ref": "way/590188051",
+        "owner": "Aberdeen City Council",
+        "ownership": "municipal",
+        "recycling:aerosol_cans": "yes",
+        "recycling:aluminium": "yes",
+        "recycling:batteries": "yes",
+        "recycling:books": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:cartons": "yes",
+        "recycling:ceramics": "yes",
+        "recycling:clothes": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:electrical_appliances": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:hazardous_waste": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paint": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:small_appliances": "yes",
+        "recycling:tyres": "yes",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes",
+        "recycling_type": "centre",
+        "wikidata": "Q102132154"
+      },
+      "type": "Feature"
     }
   ]
 }
