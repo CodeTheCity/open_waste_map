@@ -148,17 +148,23 @@
                     popupData += "<ul class=\"fa-ul\">"
                     for (const [key, value] of Object.entries(acceptedMaterials)) {
 
-                        switch (value) {
-                            case "yes":
-                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
-                                break;
-                            case "no":
-                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
-                                break;
-                            default:
-                                console.warn("Unknown key/value pair supplied - " + key + " : " + value);
-                                break;
+                        if (!tagMap.hasOwnProperty(key)) {
+                            console.warn("Missing tag for " + key);
+                        } else {
+                            switch (value) {
+                                case "yes":
+                                    popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
+                                    break;
+                                case "no":
+                                    popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
+                                    break;
+                                default:
+                                    console.warn("Unknown key/value pair supplied - " + key + " : " + value);
+                                    break;
+                            }
                         }
+
+
                     }
                     popupData += "</ul>"
                     popupData += `</div></div></div>`
@@ -218,8 +224,10 @@
                             console.error("EXCEPTION CAUGHT: " + centreProps["opening_hours"] + "\n" + ex)
                         }
 
-                    }
 
+                    } else {
+                        popupData += "<em>Opening hours not supplied</em>"
+                    }
 
 
 
@@ -234,11 +242,15 @@
                         icon: icon
                     });
 
-                    point.bindPopup(popupData);
+                    point.bindPopup(popupData, {
+                        maxWidth: 600
+                    });
 
                     point.addTo(map);
 
-                    layer.bindPopup(popupData);
+                    layer.bindPopup(popupData, {
+                        maxWidth: 600
+                    });
                 }
 
             }).addTo(map);
