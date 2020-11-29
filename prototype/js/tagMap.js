@@ -29,5 +29,21 @@ var tagMap = {
     "recycling:small_appliances": "Small appliances",
     "recycling:tyres": "Tyres",
     "recycling:white_goods": "White goods",
-    "recycling:wood": "Wood"
+    "recycling:wood": "Wood",
+    "recycling:green_waste": "Green waste",
+    "recycling:plastic": "Plastics",
+    "recycling:gas_bottles": "Gas canisters",
+    "recycling:low_energy_bulbs": "Low energy bulbs",
+    "recycling:rubble": "Rubble",
+    "recycling:small_electrical_appliances": "Small electrical appliances",
+    "recycling:waste": "General waste",
+    "recycling:textiles": "Textiles",
+    "recycling:polystyrene": "Polystyrene",
+    "recycling:small_appliance": "Small appliances",
+    "recycling:styrofoam": "Styrofoam",
+    "recycling:wood_waste": "Wood waste",
+    "recycling:polystyrene_foam": "Polystyrene foam",
+    "recycling:earth": "Earth",
+    "recycling:fridge_and_freezer": "Fridges and freezers",
+    "recycling:furniture": "Furniture"
 }
