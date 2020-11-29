@@ -28,14 +28,27 @@
 <script src="lib/leaflet-locatecontrol/L.Control.Locate.min.js"></script>
 <script src="lib/Leaflet.awesome-markers/leaflet.awesome-markers.js"></script>
 
+<script src="lib/moment.min.js"></script>
+<script src="lib/opening_hours+deps.min.js"></script>
+
 <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
+<script src="js/tagMap.js"></script>
+
 <script>
-    var map = L.map('map').setView([57.14071029202315, -2.062339782714844], 12);
+    var map = L.map('map').setView([57.085530536974744, -2.4664306640625004], 9);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap</a> Contributors',
         maxZoom: 18,
         minZoom: 5
+    }).addTo(map);
+
+    L.tileLayer.wms('https://geo.spatialhub.scot/geoserver/sh_las/wms?authkey=b85aa063-d598-4582-8e45-e7e6048718fc', {
+        attribution: "Contains OS data © Crown copyright and database right 2020, and Scottish local authority data from the Spatial Hub",
+        layers: 'pub_las',
+        format: 'image/png',
+        transparent: true,
+        opacity: 0.5
     }).addTo(map);
 
     L.control.locate({
@@ -56,33 +69,210 @@
 
     $.ajax({
         type: "GET",
+        url: 'https://raw.githubusercontent.com/CodeTheCity/ctc21_waste_wizards/main/hwrc_10_catchments_attributes.geojson',
+        dataType: 'json',
+        success: function(response) {
+            driveTimes = L.geoJSON(response, {
+                style: {
+                    color: "red"
+                },
+                onEachFeature: function(feature, layer) {
+                    layer.bindPopup("15 minute drive time zone for " + feature.properties["Recycling Centre"])
+                }
+            }).addTo(map);
+        }
+    });
+
+    $.ajax({
+        type: "GET",
         url: 'https://raw.githubusercontent.com/CodeTheCity/ctc21_waste_wizards/main/HWRC.geojson',
         dataType: 'json',
         success: function(response) {
-            centre = L.geoJSON(response, {
-                pointToLayer: function(feature, latlng) {
-
-                },
+            centres = L.geoJSON(response, {
                 onEachFeature: function(feature, layer) {
                     var hwrcCentre = layer.getBounds().getCenter();
                     var centreProps = layer.feature.properties;
 
                     var name = centreProps.name;
 
+                    var acceptedMaterials = Object.keys(centreProps).filter(function(k) {
+                        return k.indexOf('recycling:') == 0 && (centreProps[k] == "yes" || centreProps[k] == "no");
+                    }).reduce(function(newData, k) {
+                        newData[k] = centreProps[k];
+                        return newData;
+                    }, {});
+
+                    var idPrefix = name.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
+
+                    var popupData;
+
+
+                    // Centre title
+                    popupData = "<h6>" + name + "</h6>";
+
+                    // Centre address
+                    var addressContent = [];
+
+                    if (centreProps["addr:housename"]) {
+                        addressContent.push(centreProps["addr:housename"]);
+                    }
+
+                    if (centreProps["addr:housenumber"]) {
+                        addressContent.push(centreProps["addr:housenumber"]);
+                    }
+
+                    if (centreProps["addr:street"]) {
+                        addressContent.push(centreProps["addr:street"]);
+                    }
+
+                    if (centreProps["addr:city"]) {
+                        addressContent.push(centreProps["addr:city"]);
+                    }
+
+                    if (centreProps["addr:postcode"]) {
+                        addressContent.push(centreProps["addr:postcode"]);
+                    }
+
+                    popupData += "<em class=\"text-muted\">";
+                    popupData += addressContent.join(", ")
+                    popupData += "</em>";
+
+                    // Accordion wrapper begin
+                    popupData += `<div class="accordion" id="` + idPrefix + `Accordion">`;
+
+                    // Accepted materials section
+                    popupData += `<div class="card">`
+                    popupData += `<div class="card-header" id="` + idPrefix + `AcceptedMaterials">`
+                    popupData += `<h2 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#` + idPrefix + `AcceptedMaterialsMain" aria-expanded="true">Materials</button></h2></div>`
+                    popupData += `<div id="` + idPrefix + `AcceptedMaterialsMain" class="collapse" data-parent="#` + idPrefix + `Accordion"><div class="card-body">`
+                    popupData += "<ul class=\"fa-ul\">"
+                    for (const [key, value] of Object.entries(acceptedMaterials)) {
+
+                        switch (value) {
+                            case "yes":
+                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
+                                break;
+                            case "no":
+                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
+                                break;
+                            default:
+                                console.warn("Unknown key/value pair supplied - " + key + " : " + value);
+                                break;
+                        }
+                    }
+                    popupData += "</ul>"
+                    popupData += `</div></div></div>`
+
+                    // Opening hours section
+                    popupData += `<div class="card">`
+                    popupData += `<div class="card-header" id="` + idPrefix + `OpeningHours">`
+                    popupData += `<h2 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#` + idPrefix + `OpeningHoursMain" aria-expanded="true">Opening hours</button></h2></div>`
+                    popupData += `<div id="` + idPrefix + `OpeningHoursMain" class="collapse" data-parent="#` + idPrefix + `Accordion"><div class="card-body">`
+
+                    if (!!(centreProps["opening_hours"])) {
+
+                        try {
+                            var oh = new opening_hours(centreProps["opening_hours"]);
+                            popupData += "<table style=\"width:100%\" class=\"open-time-table\">"
+                            var currentDate = moment();
+                            var todayNo = currentDate.day();
+                            var weekStart = currentDate.clone().startOf('isoWeek').toDate();
+                            var weekEnd = currentDate.clone().endOf('isoWeek').toDate();
+                            var weekDays = getCurrentWeek()
+
+                            var openTimes = oh.getOpenIntervals(weekStart, weekEnd);
+
+                            for (var day in weekDays) {
+
+                                currentDayNo = weekDays[day].day();
+
+
+                                if (todayNo == currentDayNo) {
+                                    popupData += "<tr class=\"font-weight-bold\">"
+                                } else {
+                                    popupData += "<tr>"
+                                }
+
+                                popupData += "<td>" + weekDays[day].format('dddd') + "</td>"
+
+                                var dayData = findOpenTimeMatch(openTimes, weekDays[day])
+
+
+                                if (dayData.length > 0) {
+                                    popupData += "<td style=\"text-align:right\">"
+                                    for (var time in dayData) {
+                                        popupData += dayData[time][0].format('HH:mm') + " - " + dayData[time][1].format('HH:mm');
+                                        popupData += "</br>"
+                                    }
+                                    popupData += "</td>"
+                                } else {
+                                    popupData += "<td style=\"text-align:right\">Closed</td>"
+                                }
+
+
+                                popupData += "</tr>";
+                            }
+                            popupData += "</table>"
+                        } catch (ex) {
+
+                            console.error("EXCEPTION CAUGHT: " + centreProps["opening_hours"] + "\n" + ex)
+                        }
+
+                    }
+
+
+
+
+                    popupData += `</div></div></div>`
+
+                    // Accordion wrapper end
+                    popupData += "</div>";
+
+
+
                     var point = L.marker(hwrcCentre, {
                         icon: icon
                     });
 
-                    point.bindPopup(name);
+                    point.bindPopup(popupData);
 
                     point.addTo(map);
 
-                    layer.bindPopup(name);
+                    layer.bindPopup(popupData);
                 }
 
             }).addTo(map);
         }
     });
+
+
+    function getCurrentWeek() {
+        var currentDate = moment();
+
+        var weekStart = currentDate.clone().startOf('isoWeek');
+        var weekEnd = currentDate.clone().endOf('isoWeek');
+
+        var days = [];
+
+        for (var i = 0; i <= 6; i++) {
+            days.push(moment(weekStart).add(i, 'days'));
+        }
+
+        return days;
+    }
+
+
+    function findOpenTimeMatch(openTimes, date) {
+        var openingData = [];
+        for (var i in openTimes) {
+            var startTime = new moment(openTimes[i][0])
+            var endTime = new moment(openTimes[i][1])
+            if (date.startOf('day').isSame(startTime.startOf('day'))) {
+                openingData.push([new moment(openTimes[i][0]), endTime])
+            }
+        }
+        return openingData;
+    }
 </script>
 
 </html>
