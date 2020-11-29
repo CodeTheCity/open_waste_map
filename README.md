@@ -4,7 +4,7 @@ This is project started as part of
 [CTC21: Put Your City on the Map](https://github.com/CodeTheCity/CTC21), 
 which ran Saturday 28th Nov 2020 and Sunday 29th Nov 2020.
 
-### Useful bit'n'pieces
+### Useful bits'n'pieces
 
 * [Our worksheet of waste recycling centres and points in Aberdeen](HWRC.csv)
 * [Query Wikidata for the recycling centres in Scotland](https://w.wiki/occ)
