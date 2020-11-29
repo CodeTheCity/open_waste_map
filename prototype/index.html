@@ -130,11 +130,22 @@
                     // Accepted materials section
                     popupData += `<div class="card">`
                     popupData += `<div class="card-header" id="` + idPrefix + `AcceptedMaterials">`
-                    popupData += `<h2 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#` + idPrefix + `AcceptedMaterialsMain" aria-expanded="true">Accepted materials</button></h2></div>`
+                    popupData += `<h2 class="mb-0"><button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#` + idPrefix + `AcceptedMaterialsMain" aria-expanded="true">Materials</button></h2></div>`
                     popupData += `<div id="` + idPrefix + `AcceptedMaterialsMain" class="collapse" data-parent="#` + idPrefix + `Accordion"><div class="card-body">`
                     popupData += "<ul class=\"fa-ul\">"
                     for (const [key, value] of Object.entries(acceptedMaterials)) {
-                        popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
+
+                        switch (value) {
+                            case "yes":
+                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
+                                break;
+                            case "no":
+                                popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
+                                break;
+                            default:
+                                console.warn("Unknown key/value pair supplied - " + key + " : " + value);
+                                break;
+                        }
                     }
                     popupData += "</ul>"
                     popupData += `</div></div></div>`
@@ -162,7 +173,6 @@
 
                                 currentDayNo = weekDays[day].day();
 
-                                debugger;
 
                                 if (todayNo == currentDayNo) {
                                     popupData += "<tr class=\"font-weight-bold\">"
