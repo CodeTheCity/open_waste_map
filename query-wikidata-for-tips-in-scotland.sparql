@@ -1,0 +1,15 @@
+select ?tip ?tipLabel ?tipDescription ?latitude ?longitude ?councilAreaLabel ?operatorLabel {
+
+  ?tip wdt:P31 wd:Q27106436; # instance of recycling center
+      wdt:P131 ?councilArea;
+      wdt:P137 ?operator; 
+      p:P625/psv:P625 [
+        wikibase:geoLatitude ?latitude;
+        wikibase:geoLongitude ?longitude
+      ].
+  
+  ?councilArea wdt:P31 wd:Q15060255. # instance of Scottish council area 
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" } 
+}
+
