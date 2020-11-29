@@ -2,7 +2,9 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -34,10 +36,10 @@
               57.14048
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
+        "osm_ref": "way/488949555",
         "addr:city": "Aberdeen",
         "addr:postcode": "AB15 8BJ",
         "addr:street": "Hazlehead Avenue",
@@ -45,8 +47,7 @@
         "name": "Hazlehead Recycling Centre",
         "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45",
         "opening_hours:covid19": "same",
-        "operator": "SUEZ",
-        "osm_ref": "way/488949555",
+        "operator": "Suez",
         "recycling:aerosol_cans": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
@@ -75,16 +76,17 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:white_goods": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre",
         "wikidata": "Q102132282"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -108,18 +110,17 @@
               57.19587
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
+        "osm_ref": "way/590188051",
         "addr:postcode": "AB22 8NJ",
         "addr:street": "Scotstown Road",
         "amenity": "recycling",
         "name": "Bridge of Don Recycling Centre",
         "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45",
         "opening_hours:covid19": "same",
-        "operator": "SUEZ",
-        "osm_ref": "way/590188051",
+        "operator": "Suez",
         "owner": "Aberdeen City Council",
         "ownership": "municipal",
         "recycling:aerosol_cans": "yes",
@@ -150,16 +151,18 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:white_goods": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre",
-        "wikidata": "Q102132154"
-      },
-      "type": "Feature"
+        "wikidata": "Q102132154",
+        "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bridge%20of%20Don%20Recycling%20Centre.jpg"
+      }
     },
     {
+      "type": "Feature",
       "geometry": {
+        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -191,10 +194,10 @@
               57.14048
             ]
           ]
-        ],
-        "type": "Polygon"
+        ]
       },
       "properties": {
+        "osm_ref": "way/488949555",
         "addr:city": "Aberdeen",
         "addr:postcode": "AB15 8BJ",
         "addr:street": "Hazlehead Avenue",
@@ -202,8 +205,7 @@
         "name": "Hazlehead Recycling Centre",
         "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45",
         "opening_hours:covid19": "same",
-        "operator": "SUEZ",
-        "osm_ref": "way/488949555",
+        "operator": "Suez",
         "recycling:aerosol_cans": "yes",
         "recycling:aluminium": "yes",
         "recycling:batteries": "yes",
@@ -232,13 +234,12 @@
         "recycling:plastic_bottles": "yes",
         "recycling:scrap_metal": "yes",
         "recycling:small_appliances": "yes",
+        "recycling_type": "centre",
         "recycling:tyres": "yes",
         "recycling:white_goods": "yes",
         "recycling:wood": "yes",
-        "recycling_type": "centre",
         "wikidata": "Q102132282"
-      },
-      "type": "Feature"
+      }
     }
   ]
 }
