@@ -84,9 +84,7 @@
           "recycling:wood": "yes",
           "wikidata": "Q102132282"
         }
-      },
-      "geometry": null,
-      "properties": {}
+      }
     },
     {
       "type": "Feature",
@@ -165,9 +163,7 @@
           "wikidata": "Q102132154",
           "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bridge%20of%20Don%20Recycling%20Centre.jpg"
         }
-      },
-      "geometry": null,
-      "properties": {}
+      }
     },
     {
       "type": "Feature",
@@ -252,9 +248,7 @@
           "recycling:wood": "yes",
           "wikidata": "Q102132282"
         }
-      },
-      "geometry": null,
-      "properties": {}
+      }
     }
   ]
 }
