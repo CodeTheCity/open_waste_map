@@ -36,10 +36,7 @@
 <script src="js/tagMap.js"></script>
 
 <script>
-    var map = L.map('map', {
-
-    }).setView([57.14071029202315, -2.062339782714844], 12);
-
+    var map = L.map('map').setView([57.085530536974744, -2.4664306640625004], 9);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap</a> Contributors',
         maxZoom: 18,
@@ -72,10 +69,26 @@
 
     $.ajax({
         type: "GET",
+        url: 'https://raw.githubusercontent.com/CodeTheCity/ctc21_waste_wizards/main/hwrc_10_catchments_attributes.geojson',
+        dataType: 'json',
+        success: function(response) {
+            driveTimes = L.geoJSON(response, {
+                style: {
+                    color: "red"
+                },
+                onEachFeature: function(feature, layer) {
+                    layer.bindPopup("15 minute drive time zone for " + feature.properties["Recycling Centre"])
+                }
+            }).addTo(map);
+        }
+    });
+
+    $.ajax({
+        type: "GET",
         url: 'https://raw.githubusercontent.com/CodeTheCity/ctc21_waste_wizards/main/HWRC.geojson',
         dataType: 'json',
         success: function(response) {
-            centre = L.geoJSON(response, {
+            centres = L.geoJSON(response, {
                 onEachFeature: function(feature, layer) {
                     var hwrcCentre = layer.getBounds().getCenter();
                     var centreProps = layer.feature.properties;
