@@ -96,7 +96,7 @@
                     var name = centreProps.name;
 
                     var acceptedMaterials = Object.keys(centreProps).filter(function(k) {
-                        return k.indexOf('recycling:') == 0 && (centreProps[k] == "yes" || centreProps[k] == "no");
+                        return k.indexOf('recycling:') == 0 && (centreProps[k] == "yes" || centreProps[k].toLowerCase() == "no");
                     }).reduce(function(newData, k) {
                         newData[k] = centreProps[k];
                         return newData;
@@ -155,7 +155,7 @@
                         if (!tagMap.hasOwnProperty(key)) {
                             console.warn("Missing tag for " + key);
                         } else {
-                            switch (value) {
+                            switch (value.toLowerCase()) {
                                 case "yes":
                                     popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
                                     break;
