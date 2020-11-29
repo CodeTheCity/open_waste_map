@@ -1,7 +1,7 @@
-Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OSM URL,local authrority url
+Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OPERATOR (WIKIDATA QID),OSM URL,local authrority url
 Bridge of Don Recycling Centre,"Scotstown Road
 Bridge of Don
-AB22 8NJ","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Bulky waste ?
+AB22 8NJ",Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45,"- Bulky waste ?
 - Car battery (recycling:car_batteries)
 - Cardboard (recycling:cardboard)
 - Cooking oil (recycling:cooking_oil)
@@ -21,10 +21,10 @@ AB22 8NJ","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Bulky waste ?
 - Televisions (recycling:tv_monitor)
 - Wood (recycling:wood)","Bridge of Don Recycling Centre Scotstown Road
 Bridge of Don
-AB22 8NJ",57.1955986,-2.1121538,Q102132154,https://www.openstreetmap.org/way/590188051,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bridge-don-recycling-centre
+AB22 8NJ",57.1955986,-2.1121538,Q102132154,Suez (Q1551864),https://www.openstreetmap.org/way/590188051,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bridge-don-recycling-centre
 Hazlehead Recycling Centre,"Hazlehead Avenue
 Hazlehead
-AB15 8BJ","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Aerosols (recycling:aerosol_cans)
+AB15 8BJ",Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45,"- Aerosols (recycling:aerosol_cans)
 - Bulky waste ?
 - Car battery (recycling:car_batteries)
 - Car tyre (recycling:tyres)
@@ -52,10 +52,10 @@ AB15 8BJ","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Aerosols (recycling:aerosol_
 - turf
 - Wood","Hazlehead Recycling Centre Hazlehead Avenue
 Hazlehead
-AB15 8BJ",57.1397619,-2.1698404,Q102132282,https://www.openstreetmap.org/way/488949555,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/hazlehead-recycling-centre
+AB15 8BJ",57.1397619,-2.1698404,Q102132282,Suez (Q1551864),https://www.openstreetmap.org/way/488949555,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/hazlehead-recycling-centre
 Bucksburn Recycling Centre,"Bankhead Avenue
 Bucksburn
-AB21 9ET","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Bulky waste ?
+AB21 9ET",Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45,"- Bulky waste ?
 - Car battery (recycling:car_batteries)
 - Cardboard (recycling:cardboard)
 - Cooking oil (recycling:cooking_oil)
@@ -76,10 +76,10 @@ AB21 9ET","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45","- Bulky waste ?
 - turf (recycling:green_waste/recycling:garden_waste?)
 - Wood (recycling:wood)","Bucksburn Recycling Centre Bankhead Avenue
 Bucksburn
-AB21 9ET",57.1809974,-2.1803248,Q102132382,https://www.openstreetmap.org/node/8173526813,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bucksburn-recycling-centre
+AB21 9ET",57.1809974,-2.1803248,Q102132382,Suez (Q1551864),https://www.openstreetmap.org/node/8173526813,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/bucksburn-recycling-centre
 Tullos Recycling Centre,"Greenbank Crescent
 Tullos
-AB12 3BG","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45; We off","- Bulky waste ?
+AB12 3BG",Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45; We off,"- Bulky waste ?
 - Car battery (recycling:car_batteries)
 - Car tyre (recycling:tyres)
 - Cardboard (recycling:cardboard)
@@ -105,4 +105,4 @@ AB12 3BG","Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45; We off","- Bulky waste ?
 - turf
 - Wood","Tullos Recycling Centre Greenbank Crescent
 Tullos
-AB12 3BG",57.126097,-2.0777472,Q102132643,https://www.openstreetmap.org/way/116883204,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/tullos-recycling-centre
+AB12 3BG",57.126097,-2.0777472,Q102132643,Suez (Q1551864),https://www.openstreetmap.org/way/116883204,https://www.aberdeencity.gov.uk/services/bins-and-recycling/find-your-nearest-recycling-centre/tullos-recycling-centre
