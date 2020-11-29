@@ -2102,6 +2102,106 @@
         "recycling:waste": "yes",
         "recycling:wood": "yes"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.07819,
+              57.1263
+            ],
+            [
+              -2.07793,
+              57.12638
+            ],
+            [
+              -2.07778,
+              57.12634
+            ],
+            [
+              -2.07641,
+              57.12574
+            ],
+            [
+              -2.07771,
+              57.12512
+            ],
+            [
+              -2.07844,
+              57.12576
+            ],
+            [
+              -2.07838,
+              57.12582
+            ],
+            [
+              -2.07832,
+              57.12587
+            ],
+            [
+              -2.07824,
+              57.12596
+            ],
+            [
+              -2.07821,
+              57.12608
+            ],
+            [
+              -2.07819,
+              57.12619
+            ],
+            [
+              -2.07819,
+              57.1262
+            ],
+            [
+              -2.07819,
+              57.1263
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "osm_ref": "way/116883204",
+        "access": "yes",
+        "addr:city": "Aberdeen",
+        "addr:postcode": "AB12 3BG",
+        "addr:street": "Greenbank Crescent",
+        "amenity": "recycling",
+        "name": "Tullos Recycling Centre",
+        "opening_hours": "Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45; We off",
+        "opening_hours:covid19": "same",
+        "operator": "Suez",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:car_batteries": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:ceramics": "yes",
+        "recycling:cooking_oil": "yes",
+        "recycling:earth": "yes",
+        "recycling:electrical_items": "yes",
+        "recycling:engine_oil": "yes",
+        "recycling:fluorescent_tubes": "yes",
+        "recycling:fridge_and_freezer": "yes",
+        "recycling:furniture": "yes",
+        "recycling:garden_waste": "yes",
+        "recycling:gas_bottles": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plasterboard": "yes",
+        "recycling:plastic_bottles": "yes",
+        "recycling:rubble": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling:textiles": "yes",
+        "recycling_type": "centre",
+        "recycling:tyres": "yes",
+        "recycling:white_goods": "yes",
+        "recycling:wood": "yes",
+        "wikidata": "Q102132643"
+      }
     }
   ]
 }
