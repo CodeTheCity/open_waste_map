@@ -1,4 +1,4 @@
-Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OPERATOR (WIKIDATA QID),OSM URL,local authrority url,OWNER
+Recycling Centre,Address,Opening Times,Items Accepted,Full Address,Latitude,Longitude,WIKIDATA QID,OPERATOR (WIKIDATA QID),OSM URL,local authrority url,owner
 Bridge of Don Recycling Centre,"Scotstown Road
 Bridge of Don
 AB22 8NJ",Mo-Fr 10:00-16:45; Sa-Su 09:00-16:45,"- Bulky waste ?
@@ -145,7 +145,7 @@ garden_waste
 gas_bottles
 scrap_metal
 wood
-waste","Ellon Recycling Centre Ellon, Balmacassie Commercial Park, Balmacassie Brae, AB41 8BY",57.3698749,-2.0536933,,,https://www.openstreetmap.org/node/1453597969,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/ellon-recycling-centre/,Aberdeenshire council
+waste","Ellon Recycling Centre Ellon, Balmacassie Commercial Park, Balmacassie Brae, AB41 8BY",57.3698749,-2.0536933,,,https://www.openstreetmap.org/way/878917216,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/ellon-recycling-centre/,Aberdeenshire council
 Fraserburgh Recycling Centre,"Fraserburgh,
 Anderson Place
 AB43 9SU",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
@@ -206,7 +206,7 @@ rubble
 scrap_metal
 clothes
 wood
-waste","Insch Recycling Centre, Insch, Market Street, AB52 6LA",57.3442931,-2.6120158,,,https://www.openstreetmap.org/node/2921781304,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/insch-recycling-centre/,Aberdeenshire council
+waste","Insch Recycling Centre, Insch, Market Street, AB52 6LA",57.3442931,-2.6120158,,,https://www.openstreetmap.org/way/286512700,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/insch-recycling-centre/,Aberdeenshire council
 Inverurie Recycling Centre,"Inverurie,
 Souterford Road
 AB51 0TP",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
@@ -228,7 +228,7 @@ plastic
 scrap_metal
 clothes
 wood
-waste","Inverurie Recycling Centre, Inverurie, Souterford Road, AB51 0TP",57.2879649,-2.3686518,,,https://www.openstreetmap.org/node/4610434492,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/inverurie-recycling-centre/,Aberdeenshire council
+waste","Inverurie Recycling Centre, Inverurie, Souterford Road, AB51 0TP",57.2879649,-2.3686518,,,https://www.openstreetmap.org/way/878914414,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/inverurie-recycling-centre/,Aberdeenshire council
 Laurencekirk Recycling Centre,"Laurencekirk,
 Market Road
 AB30 1DG",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
@@ -333,10 +333,64 @@ wood
 waste","Portsoy Recycling Centre, Portsoy, Station Yard, AB45 2QX",57.6800314,-2.689818,,,https://www.openstreetmap.org/way/878867009,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/portsoy-recycling-centre/,Aberdeenshire council
 Stonehaven Recycling Centre,"Stonehaven,
 Redcloak
-AB39 3SR",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,,"Stonehaven Recycling Centre, Stonehaven, Redcloak, AB39 3SR",56.9741853,-2.2393608,,,https://www.openstreetmap.org/way/473816199,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/stonehaven-recycling-centre/,Aberdeenshire council
+AB39 3SR",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
+car_batteries
+cooking_oil
+electrical_items
+small_appliance
+small_electrical_appliances
+engine_oil
+low_energy_bulbs
+fluorescent_tubes
+garden_waste
+gas_bottles
+glass_bottles
+plasterboard
+polystyrene
+styrofoam
+rubble
+scrap_metal
+clothes
+wood
+waste","Stonehaven Recycling Centre, Stonehaven, Redcloak, AB39 3SR",56.9741853,-2.2393608,,,https://www.openstreetmap.org/way/473816199,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/stonehaven-recycling-centre/,Aberdeenshire council
 Turriff Recycling Centre,"Turriff
 Markethill
-AB53 4AZ",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,,"Turriff Recycling Centre, Turriff, Markethill, AB53 4AZ",57.543124,-2.4538456,,,https://www.openstreetmap.org/way/878865764,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/turriff-recycling-centre/,Aberdeenshire council
+AB53 4AZ",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
+car_batteries
+cooking_oil
+electrical_items
+small_appliance
+small_electrical_appliances
+engine_oil
+low_energy_bulbs
+fluorescent_tubes
+green_waste
+garden_waste
+gas_bottles
+glass_bottles
+plasterboard
+rubble
+scrap_metal
+clothes
+wood
+waste","Turriff Recycling Centre, Turriff, Markethill, AB53 4AZ",57.543124,-2.4538456,,,https://www.openstreetmap.org/way/878865764,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/turriff-recycling-centre/,Aberdeenshire council
 Westhill Recycling Centre,"Westhill,
 Westdyke Avenue
-AB32 6QX",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,,"Westhill Recycling Centre, Westhill, Westdyke Avenue, AB32 6QX",57.1515648,-2.2947507,,,https://www.openstreetmap.org/way/41958866,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/westhill-recycling-centre/,Aberdeenshire council
+AB32 6QX",Mo-Thu 09:00-16:30; Fr 09:00-16:00; Sa-Su 09:00-16:30; Apr 1-Sep 30 Tu 16:30-19:00,"batteries
+car_batteries
+cooking_oil
+electrical_items
+small_appliance
+small_electrical_appliances
+engine_oil
+low_energy_bulbs
+fluorescent_tubes
+green_waste
+garden_waste
+gas_bottles
+glass_bottles
+rubble
+scrap_metal
+clothes
+wood
+waste","Westhill Recycling Centre, Westhill, Westdyke Avenue, AB32 6QX",57.1515648,-2.2947507,,,https://www.openstreetmap.org/way/41958866,https://www.aberdeenshire.gov.uk/waste/recycling/household-waste-recycling-centre-hwrc-opening-times/westhill-recycling-centre/,Aberdeenshire council
