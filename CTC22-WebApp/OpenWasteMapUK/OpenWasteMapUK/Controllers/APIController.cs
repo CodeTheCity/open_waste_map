@@ -1,10 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using OpenWasteMapUK.Models;
 using RestSharp;
@@ -33,10 +29,10 @@ namespace OpenWasteMapUK.Controllers
 
             if (!postcodeResponse.IsSuccessful)
             {
-                return BadRequest(postcodeData["error"].Value<string>());
+                return BadRequest((postcodeData["error"] ?? "Unknown error occurred").Value<string>());
             }
 
-            var councilArea = postcodeData["result"]["admin_district"].Value<string>();
+            var councilArea = (postcodeData["result"]?["admin_district"] ?? "Unknown").Value<string>();
 
             var wasteOSMTag = TagMappings.Values.GetValueOrDefault(waste, null);
 
