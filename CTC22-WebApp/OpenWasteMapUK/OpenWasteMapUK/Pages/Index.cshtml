@@ -46,14 +46,18 @@
     </script>
 
     <script>
-        $("#searchSubmit").click(function() {
+        var councilLayer;
+
+        $("#searchSubmit").click(function () {
             const postcode = $("#searchPostcode").val();
             const waste = $("#searchWaste").val();
             const searchError = $("#searchError");
             const searchResults = $("#searchResults");
             searchError.html("");
             searchResults.html("");
-
+            if (councilLayer != null) {
+                councilLayer.remove();
+            }
 
             $.ajax({
                 url: "/api/search",
@@ -61,8 +65,7 @@
                     postcode: postcode,
                     waste: waste
                 },
-                success: function(data) {
-
+                success: function (data) {
                     var resultText = `<p>Your council area is <strong>${data.councilArea}</strong></p>`;
 
                     if (data.wasteOSMTag == null) {
@@ -71,10 +74,35 @@
                         resultText += `<p>You can dispose of ${sanitize(waste.toLowerCase())} at the following locations:</p>`;
                     }
 
-
                     searchResults.html(resultText);
+
+                    //switch (data.country) {
+                    //    case "Scotland":
+
+                    //        break;
+                    //    case "England":
+                    //        break;
+                    //    case "Wales":
+                    //        break;
+                    //    case "Northern Ireland":
+                    //        break;
+                    //    default:
+                    //        break;
+                    //}
+
+                    councilLayer = L.tileLayer.wms('https://geo.spatialhub.scot/geoserver/sh_las/wms?authkey=b85aa063-d598-4582-8e45-e7e6048718fc',
+                        {
+                            attribution: "Contains OS data © Crown copyright and database right 2020, and Scottish local authority data from the Spatial Hub",
+                            layers: 'pub_las',
+                            format: 'image/png',
+                            transparent: true,
+                            opacity: 0.5,
+                            cql_filter: `(code = '${data.councilCode}')`
+                        }).addTo(map);
+
+
                 }
-            }).fail(function(data) { searchError.html(data.responseText); });
+            }).fail(function (data) { searchError.html(data.responseText); });
 
         });
 
@@ -89,7 +117,7 @@
                 "`": '&grave;'
             };
             const reg = /[&<>"'/]/ig;
-            return string.replace(reg, (match)=>(map[match]));
+            return string.replace(reg, (match) => (map[match]));
         }
     </script>
 }

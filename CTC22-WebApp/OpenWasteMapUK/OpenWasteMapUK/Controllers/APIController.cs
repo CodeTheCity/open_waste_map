@@ -33,12 +33,17 @@ namespace OpenWasteMapUK.Controllers
             }
 
             var councilArea = (postcodeData["result"]?["admin_district"] ?? "Unknown").Value<string>();
+            var councilCode = (postcodeData["result"]?["codes"]?["admin_district"] ?? "Unknown").Value<string>();
+            var country = (postcodeData["result"]?["country"] ?? "Unknown").Value<string>();
+
 
             var wasteOSMTag = TagMappings.Values.GetValueOrDefault(waste, null);
 
             return Ok(new
             {
                 councilArea,
+                councilCode,
+                country,
                 wasteOSMTag
             });
         }
