@@ -102,3 +102,10 @@ main {
 body {
     height: calc(100vh - 48px);
 }
+
+/*
+*  Search container
+*/
+.form-inline .form-group label {
+    margin-right: .5rem;
+}

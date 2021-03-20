@@ -6,11 +6,27 @@
 }
 
 @section sidebar{
-    <ul class="nav flex-column mx-3">
-        <li class="nav-item">
-            <div class="navbar-text">Sidebar goes here with info on what you've clicked on and search options for stuff</div>
-        </li>
-    </ul>
+    <div class="flex-column m-3">
+        <div class="form-inline mb-3">
+            <div class="form-group mb-3">
+                <label for="searchPostcode">Postcode:</label>
+                <input type="text" autocomplete="postal-code" class="form-control" id="searchPostcode" />
+            </div>
+            <div class="form-group mb-3">
+                <label for="searchWaste">Waste:</label>
+                <input type="text" class="form-control" id="searchWaste" />
+            </div>
+            <div class="form-group w-100">
+                <button role="button" type="button" class="btn btn-block btn-primary" id="searchSubmit">Search</button>
+            </div>
+        </div>
+        <div id="searchError" class="text-danger">
+
+        </div>
+        <div id="searchResults">
+
+        </div>
+    </div>
 }
 
 
@@ -19,11 +35,61 @@
 @section scripts
 {
     <script>
-        var map = L.map('map').setView([57.085530536974744, -2.4664306640625004], 9);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap</a> Contributors',
-            maxZoom: 18,
-            minZoom: 5
-        }).addTo(map);
+        var map = L.map('map').setView([55.770394, -3.339844], 6);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            {
+                attribution: '&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap</a> Contributors',
+                maxZoom: 18,
+                minZoom: 5
+            }).addTo(map);
+
+    </script>
+
+    <script>
+        $("#searchSubmit").click(function() {
+            const postcode = $("#searchPostcode").val();
+            const waste = $("#searchWaste").val();
+            const searchError = $("#searchError");
+            const searchResults = $("#searchResults");
+            searchError.html("");
+            searchResults.html("");
+
+
+            $.ajax({
+                url: "/api/search",
+                data: {
+                    postcode: postcode,
+                    waste: waste
+                },
+                success: function(data) {
+
+                    var resultText = `<p>Your council area is <strong>${data.councilArea}</strong></p>`;
+
+                    if (data.wasteOSMTag == null) {
+                        resultText += `<p class="text-danger">Sorry. We don't recognise this waste type at the moment. If you know any recycling centres that take this waste type. Please <a href="#">tell us here</a>.</p>`;
+                    } else {
+                        resultText += `<p>You can dispose of ${sanitize(waste.toLowerCase())} at the following locations:</p>`;
+                    }
+
+
+                    searchResults.html(resultText);
+                }
+            }).fail(function(data) { searchError.html(data.responseText); });
+
+        });
+
+        function sanitize(string) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#x27;',
+                "/": '&#x2F;',
+                "`": '&grave;',
+            };
+            const reg = /[&<>"'/]/ig;
+            return string.replace(reg, (match)=>(map[match]));
+        }
     </script>
 }

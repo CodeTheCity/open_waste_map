@@ -49,6 +49,9 @@ namespace OpenWasteMapUK
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    "default",
+                    "{controller=API}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
