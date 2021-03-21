@@ -287,11 +287,12 @@
                             // Accordion wrapper end
                             popupData += "</div>";
 
+                            // TODO: Wikidata image
                             if (centreProps["image"]) {
                                 popupData += "<img src=\"" + centreProps["image"] + "\" class=\"w-100\">"
                             }
 
-                            marker.bindPopup(popupData, { maxWidth: 300 });
+                            marker.bindPopup(popupData, { maxWidth: 300, minWidth: 200 });
                             marker.properties = centreProps;
                             marker.addTo(HWRCLayer);
                         }
