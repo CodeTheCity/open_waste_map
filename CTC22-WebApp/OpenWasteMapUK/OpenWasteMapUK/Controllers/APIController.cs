@@ -66,6 +66,7 @@ namespace OpenWasteMapUK.Controllers
             var osmResponse = JsonConvert.DeserializeObject<OsmResponse>(response.Content);
 
             // TODO: Output as GeoJson
+            // TODO: Compound WikiData too if possible
 
             return Ok(osmResponse.Elements);
         }
