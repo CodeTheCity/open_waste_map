@@ -107,7 +107,7 @@
                         });
                         if (layer.properties.hasOwnProperty(data.wasteOSMTag) && layer.properties[data.wasteOSMTag] === 'yes' && layer.properties.owner.includes(data.councilArea)) {
                             icon.options.iconUrl = '/lib/leaflet/images/marker-icon-green.png';
-
+                            resultText += `<li class="list-group-item">${layer.properties.name}</li>`;
                         } else {
                             icon.options.iconUrl = '/lib/leaflet/images/marker-icon-blue.png';
                         }
