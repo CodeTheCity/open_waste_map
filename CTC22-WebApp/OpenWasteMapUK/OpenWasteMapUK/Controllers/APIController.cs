@@ -70,5 +70,27 @@ namespace OpenWasteMapUK.Controllers
 
             return Ok(osmResponse.Elements);
         }
+
+        [Route("SuggestChange")]
+        public async Task<IActionResult> SuggestChange(string hwrcName, string hwrcText, double lat, double lng)
+        {
+            // LIVE
+            //IRestClient client = new RestClient("https://api.openstreetmap.org/api/0.6/notes");
+            // TEST
+            IRestClient client = new RestClient("https://master.apis.dev.openstreetmap.org/api/0.6/notes");
+            IRestRequest request = new RestRequest(Method.POST);
+            request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.AddParameter("lat", lat);
+            request.AddParameter("lon", lng);
+            request.AddParameter("text", $"Suggested change to {hwrcName}: {hwrcText}");
+            IRestResponse response = await client.ExecuteAsync(request);
+
+            if (response.IsSuccessful)
+            {
+                return Ok();
+            }
+
+            return BadRequest();
+        }
     }
 }

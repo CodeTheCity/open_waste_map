@@ -24,7 +24,7 @@
 
                     @foreach (var opt in TagMappings.Values.Select(x => x.Key).OrderBy(x => x))
                     {
-                        <option>@opt</option>
+                    <option>@opt</option>
                     }
                 </select>
             </div>
@@ -49,11 +49,11 @@
     <script src="js/tagMap.js"></script>
     <script src="/lib/moment.min.js"></script>
     <script src="/lib/opening_hours_deps.min.js"></script>
-    
+
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#searchWaste').select2({
-                theme:'bootstrap4',
+                theme: 'bootstrap4',
                 placeholder: "Select a waste type",
                 allowClear: true
             });
@@ -160,8 +160,7 @@
                                 var buildingPolygon = new L.Polygon(nodesPoints);
 
                                 marker = L.marker(buildingPolygon.getBounds().getCenter()).addTo(map);
-                            }
-                            else {
+                            } else {
                                 marker = L.marker([data[i].lat, data[i].lon]);
                             }
 
@@ -172,7 +171,8 @@
                             }).reduce(function (newData, k) {
                                 newData[k] = centreProps[k];
                                 return newData;
-                            }, {});
+                            },
+                                {});
 
 
                             var idPrefix = centreProps.name.replace(/^[^a-z]+|[^\w:.-]+/gi, "");
@@ -215,7 +215,7 @@
                             }
 
                             // Accordion wrapper begin
-                            popupData += `<div class="accordion" id="` + idPrefix + `Accordion">`;
+                            popupData += `<div class="accordion mb-1" id="` + idPrefix + `Accordion">`;
 
                             // Accepted materials section
                             popupData += `<div class="card">`
@@ -229,15 +229,15 @@
                                     console.warn("Missing tag for " + key);
                                 } else {
                                     switch (value.toLowerCase()) {
-                                    case "yes":
-                                        popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
-                                        break;
-                                    case "no":
-                                        popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
-                                        break;
-                                    default:
-                                        console.warn("Unknown key/value pair supplied - " + key + " : " + value);
-                                        break;
+                                        case "yes":
+                                            popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-check-square\" style=\"color:green\"></i></span>" + tagMap[key] + "</li>"
+                                            break;
+                                        case "no":
+                                            popupData += "<li><span class=\"fa-li\"><i class=\"fas fa-times-square\" style=\"color:red\"></i></span>" + tagMap[key] + "</li>"
+                                            break;
+                                        default:
+                                            console.warn("Unknown key/value pair supplied - " + key + " : " + value);
+                                            break;
                                     }
                                 }
 
@@ -307,16 +307,20 @@
                             }
 
 
-
                             popupData += `</div></div></div>`
 
                             // Accordion wrapper end
                             popupData += "</div>";
 
+
                             // TODO: Wikidata image
                             if (centreProps["image"]) {
                                 popupData += "<img src=\"" + centreProps["image"] + "\" class=\"w-100\">"
                             }
+
+                            var coords = marker.getLatLng();
+                            popupData += `<button class="btn btn-sm text-white btn-primary suggest-changes-btn" data-toggle="modal" data-target="#suggestChangeModal" data-hwrc="${centreProps.name}" data-lat="${coords.lat}" data-lng="${coords.lng}" onclick="setSuggestedChanges(this)">Suggest a change</button>`;
+
 
                             marker.bindPopup(popupData, { maxWidth: 300, minWidth: 200 });
                             marker.properties = centreProps;
@@ -330,6 +334,31 @@
 
 
         loadHWRCs();
+
+        function setSuggestedChanges(e) {
+            $("#suggestChangeModalLabel").text(`Suggest a change for ${e.dataset.hwrc}`);
+            $("#suggestHWRC").val(e.dataset.hwrc);
+            $("#suggestLat").val(e.dataset.lat);
+            $("#suggestLng").val(e.dataset.lng);
+        }
+
+        function submitChanges() {
+            var hwrcName = $("#suggestHWRC").val();
+            var hwrcText = $("#suggestedChangeText").val();
+            var lat = $("#suggestLat").val();
+            var lng = $("#suggestLng").val();
+            $.ajax({
+                    url: "/api/SuggestChange",
+                    data: {
+                        hwrcName,
+                        hwrcText,
+                        lat,
+                        lng
+                    }
+                }
+            );
+        }
+
 
         function findNodeLatLng(nodeName, nodes) {
             for (var node in nodes) {
@@ -368,7 +397,6 @@
         }
 
 
-
         function sanitize(string) {
             const map = {
                 '&': '&amp;',
@@ -383,4 +411,27 @@
             return string.replace(reg, (match) => (map[match]));
         }
     </script>
+    <div class="modal fade" id="suggestChangeModal" tabindex="-1" role="dialog" aria-labelledby="suggestChangeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="suggestChangeModalLabel">Suggest a change</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <label for="suggestedChangeText">Write your suggested change below:</label>
+                    <textarea class="form-control" id="suggestedChangeText" name="suggestedChangeText"></textarea>
+                    <input type="hidden" id="suggestHWRC" name="suggestHWRC" />
+                    <input type="hidden" id="suggestLat" name="suggestLat" />
+                    <input type="hidden" id="suggestLng" name="suggestLng" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="submitChanges" onclick="submitChanges()" data-dismiss="modal" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 }
