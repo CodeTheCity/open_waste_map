@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using GeoJSON.Net.Feature;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using OpenWasteMapUK.Models;
 using RestSharp;
@@ -36,7 +38,6 @@ namespace OpenWasteMapUK.Controllers
             var councilCode = (postcodeData["result"]?["codes"]?["admin_district"] ?? "Unknown").Value<string>();
             var country = (postcodeData["result"]?["country"] ?? "Unknown").Value<string>();
 
-
             var wasteOSMTag = TagMappings.Values.GetValueOrDefault(waste, null);
 
             return Ok(new
@@ -46,6 +47,27 @@ namespace OpenWasteMapUK.Controllers
                 country,
                 wasteOSMTag
             });
+        }
+        [Route("GetFeatures")]
+        public async Task<IActionResult> GetFeatures()
+        {
+            // TODO: Cache this
+            IRestClient client = new RestClient("https://overpass.kumi.systems/api/interpreter");
+            IRestRequest request = new RestRequest(Method.POST);
+            request.AddParameter("application/x-www-form-urlencoded; charset=UTF-8", "data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A(%0A++node%5B%7E%22%5Eowner%22%7E%22Council%22,i%5D%5B%22recycling_type%22%3D%22centre%22%5D(49.88,-8.39,61.06,2.47)%3B%0A++way%5B%7E%22%5Eowner%22%7E%22Council%22,i%5D%5B%22recycling_type%22%3D%22centre%22%5D(49.88,-8.39,61.06,2.47)%3B%0A)%3B%0Aout+body%3B%0A%3E%3B%0Aout+skel+qt%3B", ParameterType.RequestBody);
+
+            IRestResponse response = await client.ExecuteAsync(request);
+
+            if (!response.IsSuccessful)
+            {
+                return BadRequest("Could not retrieve map data");
+            }
+
+            var osmResponse = JsonConvert.DeserializeObject<OsmResponse>(response.Content);
+
+            // TODO: Output as GeoJson
+
+            return Ok(osmResponse.Elements);
         }
     }
 }
