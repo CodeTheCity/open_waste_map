@@ -109,3 +109,9 @@ body {
 .form-inline .form-group label {
     margin-right: .5rem;
 }
+
+/* Open time table */
+
+.open-time-table {
+    font-size: 0.8rem;
+}
