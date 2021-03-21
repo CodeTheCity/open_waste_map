@@ -78,7 +78,6 @@
                         resultText += `<p>You can dispose of ${sanitize(waste.toLowerCase())} at the following locations:</p>`;
                     }
 
-                    searchResults.html(resultText);
 
                     $.ajax({
                         url: "https://ons-inspire.esriuk.com/arcgis/rest/services/Administrative_Boundaries/Local_Authority_Districts_December_2019_Boundaries_UK_BFC/MapServer/0/query",
@@ -96,6 +95,8 @@
                             });
                     });
 
+                    resultText += '<ul class="list-group list-group-flush">';
+
                     HWRCLayer.eachLayer(function (layer) {
                         var icon = L.icon({
                             iconUrl: '',
@@ -106,12 +107,16 @@
                         });
                         if (layer.properties.hasOwnProperty(data.wasteOSMTag) && layer.properties[data.wasteOSMTag] === 'yes') {
                             icon.options.iconUrl = '/lib/leaflet/images/marker-icon-green.png';
+                            if (layer.properties.owner.includes(data.councilArea)) {
+                                resultText += `<li class="list-group-item">${layer.properties.name}</li>`;
+                            }
                         } else {
                             icon.options.iconUrl = '/lib/leaflet/images/marker-icon-blue.png';
                         }
                         layer.setIcon(icon);
                     });
-                    
+                    resultText += "</ul>";
+                    searchResults.html(resultText);
                 }
             }).fail(function (data) { searchError.html(data.responseText); });
 
