@@ -1,97 +1,98 @@
 ﻿id,identifier,govIdentifier,URL,name,description,siteAddressStreet,siteAddressCity,siteAddressCounty,siteAddressCountry,siteAddressPostcode,latitude,longitude,telephone,openingHours,ownerID,ownerName,operatorID,operatorCompanyID,operatorName,operatorAddressStreet,operatorAddressCity,operatorAddressCounty,operatorAddressCountry,operatorAddressPostcode,dateOpened,dateClosed,areaServed,charge,proofOfResidency,accessibilityNotes,pedestrianAccess,trade,ANPR,reuseShop,dateUpdated,dateValidFrom,dateValidTo,wikidataQid
-,hwrc-nir-ann-0107ln0923,WML 01/07LN/09/23,,Newpark Household Recycling Centre,,8 Orchard Way,,Antrim,nir,BT41 2RU,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0108ln08109,WML 01/08LN/08/109,,Craigmore Household Recycling Centre,,Clonkeen Road,,Antrim,nir,BT41 3JL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0109ln0868,WML 01/09LN/08/68,,Crumlin Household Recycling Centre,,Main Street,,Antrim,nir,BT29 4UP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0209ln0860,WML 02/09LN/08/60,,Millisle Civic Amenity Site,,Moss Road,,Down,nir,BT22 2DR,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0210ln08106,WML 02/10LN/08/106,,Donaghadee Civic Amenity Site,,Railway Street,,Down,nir,BT21 0HN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0211ln0861,WML 02/11LN/08/61,,Kircubbin Civic Amenity Site,,Parsonage Road,,Down,nir,BT22 2RJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0212ln0863,WML 02/12LN/08/63,,Portaferry Civic Amenity Site,,Coach Road,,Down,nir,BT22 1PP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0213ln0862,WML 02/13LN/08/62,,Ballygowan Civic Amenity Site,,Moss Road,,Down,nir,BT23 6JE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0218ln0864,WML 02/18LN/08/64,,Newtownards Civic Amenity Site,,North Road,,Down,nir,BT23 7SZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0238ln1327,WML 02/38LN/13/27,,Comber Waste Recycling Centre,,29-31 Ballygowan Road,,Down,nir,BT23 5PG,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-0320ln1644,WML 03/20LN/16/44,,Keady Recycling Centre,,Annvale Industrial Estate,,Armagh,nir,BT60 2RP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-0321ln0825,WML 03/21LN/08/25,,Station Road Recycling Centre,,Station Road,,Armagh,nir,BT61 7NP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-0322ln0826,WML 03/22LN/08/26,,Markethill Recycling Centre,,Markethill Business Centre,,Armagh,nir,BT60 1PW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-0323ln0828,WML 03/23LN/08/28,,Tandragee Recycling Centre,,Madden Road,,Armagh,nir,BT62 2DG,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0437ln1315,WML 04/37LN/13/15,,Ballymena Civic Amenity Site,,Waveney Road,,Antrim,nir,BT43 5BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0501ln0855,WML 05/01LN/08/55,,Knock Road Civic Amenity Site,,Knock Road,,Antrim,nir,BT53 6LX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0502ln0915,WML 05/02LN/09/15/V2,,Crosstagherty Civic Amenity Site & Waste Transfer Facility,,Burnquarter Road,,Antrim,nir,BT53 8LN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0609ln0998,WML 06/09LN/09/98/V2,,Dromore Community Recycling Centre,,Mossvale Road,,Down,nir,BT25 1DG,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0610ln0820,WML 06/10LN/08/20/V2,,Rathfriland Community Recycling Centre,,Iveagh Park Road,,Down,nir,BT34 5NQ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0613ln0818,WML 06/13LN/08/18/V2,,Scarva Road Civic Amenity Site,,86 Scarva Road,,Down,nir,BT32 3QD,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0701ln1147,WML 07/01LN/11/47,,Blackstaff Way Recycling Centre,,1 Blackstaff Way,,Antrim,nir,BT11 9DT,54.57806,-5.97484,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0702ln1146,WML 07/02LN/11/46,,Alexandra Park Avenue Recycling Centre,,180 Alexandra Park Avenue,,Antrim,nir,BT15 3GJ,54.61947,-5.93298,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0703ln1145,WML 07/03LN/11/45,,Palmerston Road Recycling Centre,,2-4 Palmerston Road,,Down,nir,BT4 1QA,54.60378,-5.87604,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0728ln0630,WML 07/28LN/06/30,,Springfield Avenue Recycling Centre,,7 - 11 Springfield Avenue,,Antrim,nir,BT12 7BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0729ln0739,WML 07/29LN/07/39,,Agnes Street Civic Amenity Site,,135 Agnes Street,,Antrim,nir,BT13 1GG,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0731ln0725,WML 07/31LN/07/25,,Ormeau Recycling Centre,,6 Park Road,,Down,nir,BT7 2FX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-0810ln0872,WML 08/10LN/08/72,,Sullatober Civic Amenity Site,,10 Marshallstown Road,,Antrim,nir,BT38 9DE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-0918ln09106,WML 09/18LN/09/106,,Carryduff Civic Amenity Site,,6 Comber Road,,Down,nir,BT8 8AN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1003ln08105,WML 10/03LN/08/105,,Kilrea Civic Amenity Site,,Lisnagrot Road,,Londonderry,nir,BT51 5SE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1004ln08101,WML 10/04LN/08/101,,Garvagh Civic Amenity Site,,Limavady Road,,Londonderry,nir,BT51 5EB,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1005ln08103,WML 10/05LN/08/103,,The Depot Civic Amenity Site,,Loughanhill Industrial Estate,,Londonderry,nir,BT52 2PB,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1006ln08102,WML 10/06LN/08/102,,Portstewart Civic Amenity Site,,Roselick Road,,Londonderry,nir,BT55 7PP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1008ln08104,WML 10/08LN/08/104,,Castlerock Civic Amenity Site,,Freeland Road,,Londonderry,nir,BT51 4TR,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-1011ln0870,WML 10/11LN/08/70,,Portrush Civic Amenity Site,,Causeway Street,,Antrim,nir,BT56 8AB,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1110ln0614,WML 11/10LN/06/14/A,,Moneymore Civic Amenity Site,,Moneyhaw Road,,Londonderry,nir,BT45 7XJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-1218ln1643,WML 12/18LN/16/43,,Fairgreen Civic Amenity Site,,Duke Street,,Armagh,nir,BT62 3EX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-1219ln0950,WML 12/19LN/09/50,,New Line Civic Amenity Site,,Tandragee Road,,Armagh,nir,BT66 8TA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1325ln0954,WML 13/25LN/09/54,,Glendermott Road Civic Amenity Centre,,Glendermott Road,,Londonderry,nir,BT47 6BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1328ln0835,WML 13/28LN/08/35,,Eglinton Civic Amenity Centre,,Benbow Industrial Estate,,Londonderry,nir,BT47 3DW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1336ln0821,WML 13/36LN/08/21/M,,Strathfoyle Civic Amenity Site,,Temple Road,,Londonderry,nir,BT47 6TJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1343ln0832,WML 13/43LN/08/32,,Park Village Civic Amenity Site,,School Lane,,Londonderry,nir,BT47 4BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1367ln1227,WML 13/67LN/12/27,,Claudy Recycling Centre,,Learmount Road,,Londonderry,nir,BT47 4AQ,54.90869,-7.14941,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-1416ln1749,WML 14/16LN/17/49,,Bann Road Household Recycling Centre,,Bann Road,,Down,nir,BT31 9AA,54.25532,-5.95708,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-1439ln1751,WML 14/39LN/17/51,,Ballykine Household Recycling Centre,,3 Ballykine Industrial Estate,,Down,nir,BT24 8BL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-1510ln0937,WML 15/10LN/09/37,,Coalisland Civic Amenity Site,,Station Road,,Tyrone,nir,BT71 4JD,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-1512ln0983,WML 15/12LN/09/83,,Tullyvar Civic Amenity Site & Waste Transfer Station,,130 Tullyvar Road,,Tyrone,nir,BT70 2LS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-1513ln0939,WML 15/13LN/09/39,,Fivemiletown Civic Amenity Site,,Screeby Road,,Tyrone,nir,BT75 0LF,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1604ln0942,WML 16/04LN/09/42,,Belleek Civic Amenity Site,,Rathmore,,Fermanagh,nir,BT93 3GE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1610ln0918,WML 16/10LN/09/18,,Kinawley Civic Amenity Site,,Derrylin Road,,Fermanagh,nir,BT92 4FJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1614ln0971,WML 16/14LN/09/71,,Garrison Civic Amenity Site,,Belcoo Road,,Fermanagh,nir,BT93 4EL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1615ln0919,WML 16/15LN/09/19,,Irvinestown Civic Amenity Site,,Enniskillen Road,,Fermanagh,nir,BT94 1GP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1617ln0958,WML 16/17LN/09/58,,Lisbellaw Civic Amenity Site,,Brooke Street,,Fermanagh,nir,BT94 5AS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1619ln0956,WML 16/19LN/09/56,,Newtownbutler Civic Amenity Site,,Crom Road,,Fermanagh,nir,BT92 8AP,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1620ln0959,WML 16/20LN/09/59,,Rosslea Civic Amenity Site,,Lisnaskea Road,,Fermanagh,nir,BT92 7HF,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1622ln0917,WML 16/22LN/09/17,,Tempo Civic Amenity Site,,Brookeborough Road,,Fermanagh,nir,BT94 3GJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1634ln0816,WML 16/34LN/08/16/M,,Drummee Civic Amenity Site,,Drummee Integrated Waste Management Facility,,Fermanagh,nir,BT74 7PY,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1652ln1217,WML 16/52LN/12/17,,Lisnaskea Civic Amenity Site,,Killypaddy Road,,Fermanagh,nir,BT92 0HE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-fmo-1655ln1514,WML 16/55LN/15/14,,Kesh Recycling Centre,,124 Letterboy Road,,Fermanagh,nir,BT93 1TA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-1746ln1125,WML 17/46LN/11/25,,Island Magee Household Recycling Centre,,5 Island Road Lower,,Antrim,nir,BT38 9HB,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1801ln0905,WML 18/01LN/09/05,,Limavady Civic Amenity Site,,Ballyquin Road,,Londonderry,nir,BT49 9ET,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-1812ln1215,WML 18/12LN/12/15,,Dungiven Civic Amenity Site,,Chapel Road,,Londonderry,nir,BT47 4RS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-1933ln0734,WML 19/33LN/07/34/V2,,Derriaghy Household waste recycling centre,,The Cutts,,Antrim,nir,BT17 9HN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-1938ln0949,WML 19/38LN/09/49,,Drumlough Civic Amenity Site,,Drumlough Waste Facility,,Down,nir,BT26 6QA,54.42553,-6.05619,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-2005ln0963,WML 20/05LN/09/63/M,,Maghera Civic Amenity Site,,Station Road Industrial Estate,,Londonderry,nir,BT46 5EY,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-2006ln0964,WML 20/06LN/09/64/M,,Castledawson Civic Amenity Site,,Moyola Road,,Londonderry,nir,BT45 8AN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-2007ln0962,WML 20/07LN/09/62/M,,Draperstown Civic Amenity Site,,Sperrin Industrial Estate,,Londonderry,nir,BT45 7AF,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-2008ln0961,WML 20/08LN/09/61/M,,Magherafelt Civic Amenity Site,,50 Ballyronan Road,,Londonderry,nir,BT45 6EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-2036ln1410,WML 20/36LN/14/10,,Ballymacombs Civic Amenity site,,Ballymacombs Landfill Site,,Londonderry,nir,BT45 8JW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-2101ln1017,WML 21/01LN/10/17/M,,Carneatly Civic Amenity Site,,55 Moyarget Road,,Antrim,nir,BT54 6HL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2214ln0994,WML 22/14LN/09/94/V2,,Hilltown Civic Amenity Site,,Rostrevor Road,,Down,nir,BT34 5XX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-2215ln0993,WML 22/15LN/09/93/V2,,Newtownhamilton Civic Amenity Site,,Newry Road,,Armagh,nir,BT35 0AE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2216ln0990,WML 22/16LN/09/90/V2,,Newry Civic Amenity Site,,Moorhill,,Down,nir,BT34 2QE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2217ln0992,WML 22/17LN/09/92/V2,,Warrenpoint Civic Amenity Site,,Upper Dromore Road,,Down,nir,BT34 3PW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2219ln0989,WML 22/19LN/09/89/V2,,Kilkeel Civic Amenity Site,,Ballymageogh Road,,Down,nir,BT34 4HW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-2220ln0991,WML 22/20LN/09/91/V2,,Camlough Civic Amenity site,,Quarter Road,,Armagh,nir,BT35 7EZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-abc-2257ln1237,WML 22/57LN/12/37,,Crossmaglen Household Recycling Centre,,Newry Road,,Armagh,nir,BT35 9NN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-2308ln1314,WML 23/08LN/13/14,,Bruslee Civic Amenity Site,,Belfast Road,,Antrim,nir,BT39 9LS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-2339ln1516,WML 23/39LN/15/16,,O'Neill Road Recycling Centre,,Adj to the Valley Park &,,Antrim,nir,BT36 6UN,54.66727,-5.93975,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2401ln0912,WML 24/01LN/09/12,,Holywood Civic Amenity Site,,Sullivan Close,,Down,nir,BT18 9HL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-2406ln0729,WML 24/06LN/07/29,,Balloo Household Waste Recycling Centre,,28 Balloo Avenue,,Down,nir,BT19 7QT,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2505ln0940,WML 25/05LN/09/40,,Dromore Civic Amenity Site,,Fairgreen,,Tyrone,nir,BT78 3AU,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2520ln0839,WML 25/20LN/08/39,,Carrickmore Household Recycling Centre,,Quarry Road,,Tyrone,nir,BT78 3JP,54.59107,-7.05822,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2538ln1429,WML 25/38LN/14/29,,Fintona Household Waste Recycling Centre,,Lisdergan Road,,Tyrone,nir,BT78 2NS,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2609ln0742,WML 26/09LN/07/42,,Killen Recycling Centre,,Scraghey Road,,Tyrone,nir,BT81 7SQ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2614ln08118,WML 26/14LN/08/118,,Plumbridge Civic Amenity Site,,Ligford Road,,Tyrone,nir,BT79 8DL,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2615ln08117,WML 26/15LN/08/117,,Donemana Civic Amenity Site,,Berryhill Road,,Tyrone,nir,BT82 0JB,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2616ln0944,WML 26/16LN/09/44,,Newtownstewart Civic Amenity Site,,Douglas Road,,Tyrone,nir,BT78 4NR,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-2629ln1428,WML 26/29LN/14/28,,Strahans Road Household Waste Recycling Centre & WTS,,300m E of 11 STRAHANS ROAD,,Tyrone,nir,BT82 9SF,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-3103ln09105,WML 31/03LN/09/105,,Cregagh Road Civic Amenity Site,,368a Cregagh Road,,Antrim,nir,BT6 9EY,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ccg-3308ln1623,WML 33/08LN/16/23,,Pennyburn Household Waste Recycling and Reuse Centre,,6 Pennyburn Industrial Estate,,Londonderry,nir,BT48 0LU,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-3416ln2103,WML 34/16LN/21/03,,Gortrush Recycling Centre & Transfer Station,,2 GORTRUSH INDUSTRIAL ESTATE,,Tyrone,nir,BT78 5EJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-3614ln0957,WML 36/14LN/09/57/V2,,Redlands Recycling Centre,,Harbour Highway,,Antrim,nir,BT40 1AX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-ann-3615ln0722,WML 36/15LN/07/22/V2,,Glenarm Household Recycling Centre,,Dickeystown Road,,Antrim,nir,BT44 0BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-3705ln1645,WML 37/05LN/16/45,,Cookstown Recycling Centre,,Molesworth Road,,Tyrone,nir,BT80 8PA,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-mul-3717ln1818,WML 37/17LN/18/18,,Drumcoo Civic Amenity Site & Transfer Station,,Coalisland Road,,Tyrone,nir,BT71 4AE,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,hwrc-nir-and-3821ln1915,WML 38/21LN/19/15,,Downpatrick Household Recycling Centre,,14 14 Killough Road,,Down,nir,BT30 6QW,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,hwrc-nir-ann-0107ln0923,WML 01/07LN/09/23,,Newpark Household Recycling Centre,,8 Orchard Way,,Antrim,nir,BT41 2RU,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0108ln08109,WML 01/08LN/08/109,,Craigmore Household Recycling Centre,,Clonkeen Road,,Antrim,nir,BT41 3JL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0109ln0868,WML 01/09LN/08/68,,Crumlin Household Recycling Centre,,Main Street,,Antrim,nir,BT29 4UP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0437ln1315,WML 04/37LN/13/15,,Ballymena Civic Amenity Site,,Waveney Road,,Antrim,nir,BT43 5BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0501ln0855,WML 05/01LN/08/55,,Knock Road Civic Amenity Site,,Knock Road,,Antrim,nir,BT53 6LX,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0502ln0915,WML 05/02LN/09/15/V2,,Crosstagherty Civic Amenity Site & Waste Transfer Facility,,Burnquarter Road,,Antrim,nir,BT53 8LN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0701ln1147,WML 07/01LN/11/47,,Blackstaff Way Recycling Centre,,1 Blackstaff Way,,Antrim,nir,BT11 9DT,54.57806,-5.97484,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0702ln1146,WML 07/02LN/11/46,,Alexandra Park Avenue Recycling Centre,,180 Alexandra Park Avenue,,Antrim,nir,BT15 3GJ,54.61947,-5.93298,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0728ln0630,WML 07/28LN/06/30,,Springfield Avenue Recycling Centre,,7 - 11 Springfield Avenue,,Antrim,nir,BT12 7BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0729ln0739,WML 07/29LN/07/39,,Agnes Street Civic Amenity Site,,135 Agnes Street,,Antrim,nir,BT13 1GG,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-0810ln0872,WML 08/10LN/08/72,,Sullatober Civic Amenity Site,,10 Marshallstown Road,,Antrim,nir,BT38 9DE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-1011ln0870,WML 10/11LN/08/70,,Portrush Civic Amenity Site,,Causeway Street,,Antrim,nir,BT56 8AB,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-1746ln1125,WML 17/46LN/11/25,,Island Magee Household Recycling Centre,,5 Island Road Lower,,Antrim,nir,BT38 9HB,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-1933ln0734,WML 19/33LN/07/34/V2,,Derriaghy Household waste recycling centre,,The Cutts,,Antrim,nir,BT17 9HN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-2101ln1017,WML 21/01LN/10/17/M,,Carneatly Civic Amenity Site,,55 Moyarget Road,,Antrim,nir,BT54 6HL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-2308ln1314,WML 23/08LN/13/14,,Bruslee Civic Amenity Site,,Belfast Road,,Antrim,nir,BT39 9LS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-2339ln1516,WML 23/39LN/15/16,,O'Neill Road Recycling Centre,,Adj to the Valley Park &,,Antrim,nir,BT36 6UN,54.66727,-5.93975,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-3103ln09105,WML 31/03LN/09/105,,Cregagh Road Civic Amenity Site,,368a Cregagh Road,,Antrim,nir,BT6 9EY,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-3614ln0957,WML 36/14LN/09/57/V2,,Redlands Recycling Centre,,Harbour Highway,,Antrim,nir,BT40 1AX,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-ann-3615ln0722,WML 36/15LN/07/22/V2,,Glenarm Household Recycling Centre,,Dickeystown Road,,Antrim,nir,BT44 0BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q189592
+,hwrc-nir-abc-0320ln1644,WML 03/20LN/16/44,,Keady Recycling Centre,,Annvale Industrial Estate,,Armagh,nir,BT60 2RP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-0321ln0825,WML 03/21LN/08/25,,Station Road Recycling Centre,,Station Road,,Armagh,nir,BT61 7NP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-0322ln0826,WML 03/22LN/08/26,,Markethill Recycling Centre,,Markethill Business Centre,,Armagh,nir,BT60 1PW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-0323ln0828,WML 03/23LN/08/28,,Tandragee Recycling Centre,,Madden Road,,Armagh,nir,BT62 2DG,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-1218ln1643,WML 12/18LN/16/43,,Fairgreen Civic Amenity Site,,Duke Street,,Armagh,nir,BT62 3EX,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-1219ln0950,WML 12/19LN/09/50,,New Line Civic Amenity Site,,Tandragee Road,,Armagh,nir,BT66 8TA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-2215ln0993,WML 22/15LN/09/93/V2,,Newtownhamilton Civic Amenity Site,,Newry Road,,Armagh,nir,BT35 0AE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-2220ln0991,WML 22/20LN/09/91/V2,,Camlough Civic Amenity site,,Quarter Road,,Armagh,nir,BT35 7EZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-abc-2257ln1237,WML 22/57LN/12/37,,Crossmaglen Household Recycling Centre,,Newry Road,,Armagh,nir,BT35 9NN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192761
+,hwrc-nir-and-0209ln0860,WML 02/09LN/08/60,,Millisle Civic Amenity Site,,Moss Road,,Down,nir,BT22 2DR,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0210ln08106,WML 02/10LN/08/106,,Donaghadee Civic Amenity Site,,Railway Street,,Down,nir,BT21 0HN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0211ln0861,WML 02/11LN/08/61,,Kircubbin Civic Amenity Site,,Parsonage Road,,Down,nir,BT22 2RJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0212ln0863,WML 02/12LN/08/63,,Portaferry Civic Amenity Site,,Coach Road,,Down,nir,BT22 1PP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0213ln0862,WML 02/13LN/08/62,,Ballygowan Civic Amenity Site,,Moss Road,,Down,nir,BT23 6JE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0218ln0864,WML 02/18LN/08/64,,Newtownards Civic Amenity Site,,North Road,,Down,nir,BT23 7SZ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0238ln1327,WML 02/38LN/13/27,,Comber Waste Recycling Centre,,29-31 Ballygowan Road,,Down,nir,BT23 5PG,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0609ln0998,WML 06/09LN/09/98/V2,,Dromore Community Recycling Centre,,Mossvale Road,,Down,nir,BT25 1DG,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0610ln0820,WML 06/10LN/08/20/V2,,Rathfriland Community Recycling Centre,,Iveagh Park Road,,Down,nir,BT34 5NQ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0613ln0818,WML 06/13LN/08/18/V2,,Scarva Road Civic Amenity Site,,86 Scarva Road,,Down,nir,BT32 3QD,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0703ln1145,WML 07/03LN/11/45,,Palmerston Road Recycling Centre,,2-4 Palmerston Road,,Down,nir,BT4 1QA,54.60378,-5.87604,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0731ln0725,WML 07/31LN/07/25,,Ormeau Recycling Centre,,6 Park Road,,Down,nir,BT7 2FX,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-0918ln09106,WML 09/18LN/09/106,,Carryduff Civic Amenity Site,,6 Comber Road,,Down,nir,BT8 8AN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-1416ln1749,WML 14/16LN/17/49,,Bann Road Household Recycling Centre,,Bann Road,,Down,nir,BT31 9AA,54.25532,-5.95708,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-1439ln1751,WML 14/39LN/17/51,,Ballykine Household Recycling Centre,,3 Ballykine Industrial Estate,,Down,nir,BT24 8BL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-1938ln0949,WML 19/38LN/09/49,,Drumlough Civic Amenity Site,,Drumlough Waste Facility,,Down,nir,BT26 6QA,54.42553,-6.05619,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2214ln0994,WML 22/14LN/09/94/V2,,Hilltown Civic Amenity Site,,Rostrevor Road,,Down,nir,BT34 5XX,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2216ln0990,WML 22/16LN/09/90/V2,,Newry Civic Amenity Site,,Moorhill,,Down,nir,BT34 2QE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2217ln0992,WML 22/17LN/09/92/V2,,Warrenpoint Civic Amenity Site,,Upper Dromore Road,,Down,nir,BT34 3PW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2219ln0989,WML 22/19LN/09/89/V2,,Kilkeel Civic Amenity Site,,Ballymageogh Road,,Down,nir,BT34 4HW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2401ln0912,WML 24/01LN/09/12,,Holywood Civic Amenity Site,,Sullivan Close,,Down,nir,BT18 9HL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-2406ln0729,WML 24/06LN/07/29,,Balloo Household Waste Recycling Centre,,28 Balloo Avenue,,Down,nir,BT19 7QT,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-and-3821ln1915,WML 38/21LN/19/15,,Downpatrick Household Recycling Centre,,14 14 Killough Road,,Down,nir,BT30 6QW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190684
+,hwrc-nir-fmo-1604ln0942,WML 16/04LN/09/42,,Belleek Civic Amenity Site,,Rathmore,,Fermanagh,nir,BT93 3GE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1610ln0918,WML 16/10LN/09/18,,Kinawley Civic Amenity Site,,Derrylin Road,,Fermanagh,nir,BT92 4FJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1614ln0971,WML 16/14LN/09/71,,Garrison Civic Amenity Site,,Belcoo Road,,Fermanagh,nir,BT93 4EL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1615ln0919,WML 16/15LN/09/19,,Irvinestown Civic Amenity Site,,Enniskillen Road,,Fermanagh,nir,BT94 1GP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1617ln0958,WML 16/17LN/09/58,,Lisbellaw Civic Amenity Site,,Brooke Street,,Fermanagh,nir,BT94 5AS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1619ln0956,WML 16/19LN/09/56,,Newtownbutler Civic Amenity Site,,Crom Road,,Fermanagh,nir,BT92 8AP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1620ln0959,WML 16/20LN/09/59,,Rosslea Civic Amenity Site,,Lisnaskea Road,,Fermanagh,nir,BT92 7HF,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1622ln0917,WML 16/22LN/09/17,,Tempo Civic Amenity Site,,Brookeborough Road,,Fermanagh,nir,BT94 3GJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1634ln0816,WML 16/34LN/08/16/M,,Drummee Civic Amenity Site,,Drummee Integrated Waste Management Facility,,Fermanagh,nir,BT74 7PY,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1652ln1217,WML 16/52LN/12/17,,Lisnaskea Civic Amenity Site,,Killypaddy Road,,Fermanagh,nir,BT92 0HE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-fmo-1655ln1514,WML 16/55LN/15/14,,Kesh Recycling Centre,,124 Letterboy Road,,Fermanagh,nir,BT93 1TA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q190678
+,hwrc-nir-ccg-1003ln08105,WML 10/03LN/08/105,,Kilrea Civic Amenity Site,,Lisnagrot Road,,Londonderry,nir,BT51 5SE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1004ln08101,WML 10/04LN/08/101,,Garvagh Civic Amenity Site,,Limavady Road,,Londonderry,nir,BT51 5EB,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1005ln08103,WML 10/05LN/08/103,,The Depot Civic Amenity Site,,Loughanhill Industrial Estate,,Londonderry,nir,BT52 2PB,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1006ln08102,WML 10/06LN/08/102,,Portstewart Civic Amenity Site,,Roselick Road,,Londonderry,nir,BT55 7PP,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1008ln08104,WML 10/08LN/08/104,,Castlerock Civic Amenity Site,,Freeland Road,,Londonderry,nir,BT51 4TR,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1110ln0614,WML 11/10LN/06/14/A,,Moneymore Civic Amenity Site,,Moneyhaw Road,,Londonderry,nir,BT45 7XJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1325ln0954,WML 13/25LN/09/54,,Glendermott Road Civic Amenity Centre,,Glendermott Road,,Londonderry,nir,BT47 6BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1328ln0835,WML 13/28LN/08/35,,Eglinton Civic Amenity Centre,,Benbow Industrial Estate,,Londonderry,nir,BT47 3DW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1336ln0821,WML 13/36LN/08/21/M,,Strathfoyle Civic Amenity Site,,Temple Road,,Londonderry,nir,BT47 6TJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1343ln0832,WML 13/43LN/08/32,,Park Village Civic Amenity Site,,School Lane,,Londonderry,nir,BT47 4BA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1367ln1227,WML 13/67LN/12/27,,Claudy Recycling Centre,,Learmount Road,,Londonderry,nir,BT47 4AQ,54.90869,-7.14941,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1801ln0905,WML 18/01LN/09/05,,Limavady Civic Amenity Site,,Ballyquin Road,,Londonderry,nir,BT49 9ET,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-1812ln1215,WML 18/12LN/12/15,,Dungiven Civic Amenity Site,,Chapel Road,,Londonderry,nir,BT47 4RS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-2005ln0963,WML 20/05LN/09/63/M,,Maghera Civic Amenity Site,,Station Road Industrial Estate,,Londonderry,nir,BT46 5EY,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-2006ln0964,WML 20/06LN/09/64/M,,Castledawson Civic Amenity Site,,Moyola Road,,Londonderry,nir,BT45 8AN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-2007ln0962,WML 20/07LN/09/62/M,,Draperstown Civic Amenity Site,,Sperrin Industrial Estate,,Londonderry,nir,BT45 7AF,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-2008ln0961,WML 20/08LN/09/61/M,,Magherafelt Civic Amenity Site,,50 Ballyronan Road,,Londonderry,nir,BT45 6EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-2036ln1410,WML 20/36LN/14/10,,Ballymacombs Civic Amenity site,,Ballymacombs Landfill Site,,Londonderry,nir,BT45 8JW,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-ccg-3308ln1623,WML 33/08LN/16/23,,Pennyburn Household Waste Recycling and Reuse Centre,,6 Pennyburn Industrial Estate,,Londonderry,nir,BT48 0LU,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192208
+,hwrc-nir-mul-1510ln0937,WML 15/10LN/09/37,,Coalisland Civic Amenity Site,,Station Road,,Tyrone,nir,BT71 4JD,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-1512ln0983,WML 15/12LN/09/83,,Tullyvar Civic Amenity Site & Waste Transfer Station,,130 Tullyvar Road,,Tyrone,nir,BT70 2LS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-1513ln0939,WML 15/13LN/09/39,,Fivemiletown Civic Amenity Site,,Screeby Road,,Tyrone,nir,BT75 0LF,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2505ln0940,WML 25/05LN/09/40,,Dromore Civic Amenity Site,,Fairgreen,,Tyrone,nir,BT78 3AU,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2520ln0839,WML 25/20LN/08/39,,Carrickmore Household Recycling Centre,,Quarry Road,,Tyrone,nir,BT78 3JP,54.59107,-7.05822,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2538ln1429,WML 25/38LN/14/29,,Fintona Household Waste Recycling Centre,,Lisdergan Road,,Tyrone,nir,BT78 2NS,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2609ln0742,WML 26/09LN/07/42,,Killen Recycling Centre,,Scraghey Road,,Tyrone,nir,BT81 7SQ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2614ln08118,WML 26/14LN/08/118,,Plumbridge Civic Amenity Site,,Ligford Road,,Tyrone,nir,BT79 8DL,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2615ln08117,WML 26/15LN/08/117,,Donemana Civic Amenity Site,,Berryhill Road,,Tyrone,nir,BT82 0JB,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2616ln0944,WML 26/16LN/09/44,,Newtownstewart Civic Amenity Site,,Douglas Road,,Tyrone,nir,BT78 4NR,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-2629ln1428,WML 26/29LN/14/28,,Strahans Road Household Waste Recycling Centre & WTS,,300m E of 11 STRAHANS ROAD,,Tyrone,nir,BT82 9SF,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-3416ln2103,WML 34/16LN/21/03,,Gortrush Recycling Centre & Transfer Station,,2 GORTRUSH INDUSTRIAL ESTATE,,Tyrone,nir,BT78 5EJ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-3705ln1645,WML 37/05LN/16/45,,Cookstown Recycling Centre,,Molesworth Road,,Tyrone,nir,BT80 8PA,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,hwrc-nir-mul-3717ln1818,WML 37/17LN/18/18,,Drumcoo Civic Amenity Site & Transfer Station,,Coalisland Road,,Tyrone,nir,BT71 4AE,,,,,,,,,,,,,,,,,,,,,,,,,,,,Q192229
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
